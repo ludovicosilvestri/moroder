@@ -764,12 +764,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="ONT?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ONT?.vi"/>
 			<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
 			<Item Name="PI Receive String.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI Receive String.vi"/>
