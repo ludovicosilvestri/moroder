@@ -15,6 +15,7 @@
 		<Item Name="Autofocus.lvclass" Type="LVClass" URL="../Autofocus/Autofocus/Autofocus.lvclass"/>
 		<Item Name="BMC.lvclass" Type="LVClass" URL="../DeformableMirrorBMC/BMC/BMC.lvclass"/>
 		<Item Name="Cobolt.lvclass" Type="LVClass" URL="../Cobolt/Template/Cobolt.lvclass"/>
+		<Item Name="create standard file path.vi" Type="VI" URL="../dependencies/utilities/create standard file path.vi"/>
 		<Item Name="ImageStack.lvclass" Type="LVClass" URL="../ImageStack/ImageStack/ImageStack.lvclass"/>
 		<Item Name="ImagingModeSPIM.lvclass" Type="LVClass" URL="../ImagingModeSPIM/ImagingModeSPIM/ImagingModeSPIM.lvclass"/>
 		<Item Name="StageSPIM.lvclass" Type="LVClass" URL="../StageSPIM/StageSPIM/StageSPIM.lvclass"/>
