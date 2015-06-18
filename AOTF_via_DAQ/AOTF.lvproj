@@ -677,6 +677,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
 			<Item Name="LUT cluster.ctl" Type="VI" URL="../AOTF/Controls/LUT cluster.ctl"/>
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF/Controls/MaxPower cluster.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
