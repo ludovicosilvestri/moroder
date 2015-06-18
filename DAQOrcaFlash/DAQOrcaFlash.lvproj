@@ -352,6 +352,7 @@
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="tm_closecamera.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_closecamera.vi"/>
 				<Item Name="tm_closedcimgfile.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/dcimg/tm_closedcimgfile.vi"/>
 				<Item Name="tm_deinitialize.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_deinitialize.vi"/>
@@ -439,8 +440,6 @@
 				<Item Name="B784A0CA8602FFCF42BD6BF3538D103F" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/B784A0CA8602FFCF42BD6BF3538D103F"/>
 				<Item Name="BE28EB57592693D3FB5C87E0245621B7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/BE28EB57592693D3FB5C87E0245621B7"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Boolean to enabled state.vi" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/utilities/Boolean to enabled state.vi"/>
-				<Item Name="Box.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/Box/Box.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
 				<Item Name="CAEDCE53E5A5DDABE85F91088296A0E8" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CAEDCE53E5A5DDABE85F91088296A0E8"/>
@@ -454,7 +453,6 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear error conditionally.vi" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/utilities/Clear error conditionally.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
@@ -467,10 +465,10 @@
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Create random string.vi" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/utilities/Create random string.vi"/>
 				<Item Name="DDA66B1A243225F8C7DEC80211BCE84D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/DDA66B1A243225F8C7DEC80211BCE84D"/>
 				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
@@ -504,7 +502,6 @@
 				<Item Name="FAE7CECC302C1CA00236481A335C8781" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAE7CECC302C1CA00236481A335C8781"/>
 				<Item Name="FFB65EE16C3DB2BF239B216432105F52" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FFB65EE16C3DB2BF239B216432105F52"/>
 				<Item Name="FFFD5D53F08FF732F1DDDD29D4EFDA44" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FFFD5D53F08FF732F1DDDD29D4EFDA44"/>
-				<Item Name="Find best fit.vi" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/utilities/Find best fit.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
@@ -523,8 +520,6 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
-				<Item Name="Image.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/Image/Image.lvclass"/>
-				<Item Name="ImageCollection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/ImageCollection/ImageCollection.lvclass"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
@@ -568,7 +563,6 @@
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="Mean values 2Darray.vi" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/utilities/Mean values 2Darray.vi"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
@@ -590,8 +584,11 @@
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Queue/Queue.lvclass"/>
 				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
-				<Item Name="range_offset_cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/clusters/range_offset_cluster.ctl"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
@@ -608,7 +605,6 @@
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
-				<Item Name="Rotate 2D array.vi" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/utilities/Rotate 2D array.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Search Waveform.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -619,17 +615,14 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SpaceVector.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/SpaceVector/SpaceVector.lvclass"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="target_format_enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/Image/target_format_enum.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="TIFFManagement.lvlib" Type="Library" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/TIFFManagement/TIFFManagement.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
@@ -646,15 +639,25 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/enumerations/x_y_z_enumeration.ctl"/>
-				<Item Name="XMLElement.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/XMLElement/XMLElement.lvclass"/>
 			</Item>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/bool_to_enable_state.vi"/>
+			<Item Name="Box.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/Box/Box.lvclass"/>
+			<Item Name="Clear error conditionally.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Clear error conditionally.vi"/>
+			<Item Name="Convert plane for terastitcher.vi" Type="VI" URL="../FileTransfer/Convert plane for terastitcher.vi"/>
+			<Item Name="Convert to tiff.vi" Type="VI" URL="../FileTransfer/Convert to tiff.vi"/>
+			<Item Name="Create random string.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Create random string.vi"/>
 			<Item Name="create_random_string.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="file_action_enum.ctl" Type="VI" URL="../FileTransfer/file_action_enum.ctl"/>
+			<Item Name="Find best fit.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Find best fit.vi"/>
+			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
+			<Item Name="Image.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/Image/Image.lvclass"/>
+			<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/ImageCollection/ImageCollection.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Mean values 2Darray.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Mean values 2Darray.vi"/>
+			<Item Name="Move files.vi" Type="VI" URL="../FileTransfer/Move files.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -664,13 +667,21 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/clusters/range_offset_cluster.ctl"/>
+			<Item Name="Rotate 2D array.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Rotate 2D array.vi"/>
 			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../dependencies/utilities/Semicolon string to array.vi"/>
+			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/SpaceVector/SpaceVector.lvclass"/>
+			<Item Name="String array to semicolon.vi" Type="VI" URL="../../dependencies/utilities/String array to semicolon.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="target_format_enum.ctl" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/classes/Image/target_format_enum.ctl"/>
+			<Item Name="TIFFManagement.lvlib" Type="Library" URL="../../../Lucid/LabVIEW/dependencies/classes/TIFFManagement/TIFFManagement.lvlib"/>
 			<Item Name="tmcamcon.dll" Type="Document" URL="tmcamcon.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/enumerations/x_y_z_enumeration.ctl"/>
+			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/XMLElement/XMLElement.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DAQOrcaFlash" Type="EXE">
