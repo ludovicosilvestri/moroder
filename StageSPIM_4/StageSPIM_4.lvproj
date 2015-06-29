@@ -565,6 +565,9 @@
 			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
 			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/Define connected systems (Array).vi"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="ERR?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/FNL.vi"/>
 			<Item Name="FPL.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/FPL.vi"/>
@@ -624,6 +627,46 @@
 			<Item Name="Wait for controller ready.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Wait for controller ready.vi"/>
 			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../PI drivers/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="StageSPIM_4" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{56E6D144-5733-41AA-B95E-7F0E29A2CF14}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EF405505-A206-43E7-B9FC-6002C26A4E8D}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FFCBE5A2-7D60-4519-8C2D-CD18552E5A3B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">StageSPIM_4</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Executables/Stage4</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D4B7A1F4-15A3-4FE7-9B03-8904FB3AA1DE}</Property>
+				<Property Name="Destination[0].destName" Type="Str">StageSPIM_4.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Executables/Stage4/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Executables/Stage4/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/StageSPIM.lvclass/donkey-icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4D20CBD2-F79B-4FEF-A7D6-E2E04A203BA8}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/StageSPIM.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">StageSPIM_4</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">StageSPIM_4</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">StageSPIM_4</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E3DB4876-D43D-46BB-A817-AFE19726AD08}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">StageSPIM_4.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
