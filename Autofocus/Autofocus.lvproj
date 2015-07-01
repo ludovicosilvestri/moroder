@@ -569,6 +569,46 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Autofocus" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7E61B700-820A-4C58-B982-1A08D9A997F4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F9B88347-A405-4656-93DC-4C37924C5BBE}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{84729F31-2E1F-4C42-AC19-32200FB33BF2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Autofocus</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/DELL/Documents/Distrio/executables/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D6F4875B-7778-48A4-BA0C-C18CB4E21B8C}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Autofocus.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/NI_AB_PROJECTNAME/Autofocus.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Autofocus.lvclass/some_gecko.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1C288DCA-61C7-41A2-AE6E-398E974DE30A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Autofocus.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Autofocus</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Autofocus</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">Autofocus</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9770CA7D-E022-4ED9-9750-C08BEF4B9FA9}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Autofocus.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
