@@ -556,7 +556,6 @@
 				<Item Name="DDA66B1A243225F8C7DEC80211BCE84D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/DDA66B1A243225F8C7DEC80211BCE84D"/>
 				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
@@ -723,7 +722,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="email sender.vi" Type="VI" URL="../dependencies/utilities/email sender.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
 			<Item Name="FPL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FPL.vi"/>
@@ -741,6 +739,7 @@
 			<Item Name="Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global DaisyChain.vi"/>
 			<Item Name="Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
+			<Item Name="HLT.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/HLT.vi"/>
 			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
 			<Item Name="Initialize Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
 			<Item Name="Initialize Global2.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
@@ -779,9 +778,6 @@
 			<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
 			<Item Name="SVO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/SVO.vi"/>
 			<Item Name="SVO?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/SVO?.vi"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -794,6 +790,85 @@
 			<Item Name="Wait for controller ready.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for controller ready.vi"/>
 			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="ImageStack" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{86231EF1-24F0-46A9-95D3-80416D0EAB6F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{70C36D7C-91EE-427C-BDB3-BC241DAF7A06}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{38E3C537-A000-480D-88AB-AC1B9456F478}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ImageStack</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{89EBD650-D1D6-492B-8950-D78E0C3A9F2B}</Property>
+				<Property Name="Destination[0].destName" Type="Str">ImageStack.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack/ImageStack.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ImageStack.lvclass/giraffe.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7F4A6FA6-7E08-42BA-9E3C-AB3D204AFD72}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImageStack.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ImageStack</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">ImageStack</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">ImageStack</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{54095531-20A8-446C-9F01-B90E54125968}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ImageStack.exe</Property>
+			</Item>
+			<Item Name="ImagingModeSPIM" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{20D827EE-158C-49CD-A24A-DD9F678DE30C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{49737952-21FA-4CF2-85C8-D48541AC765F}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C7D95057-F8B7-451A-BCF5-2B7779DD15AA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ImagingModeSPIM</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D3C5C911-280D-41DF-80BC-72C5E172A894}</Property>
+				<Property Name="Destination[0].destName" Type="Str">ImagingModeSPIM.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM/ImagingModeSPIM.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ImagingModeSPIM.lvclass/clownfish.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C70FFC8B-F743-4E8A-99C1-A4195F2F77F4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImagingModeSPIM.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ImagingModeSPIM</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">ImagingModeSPIM</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">ImagingModeSPIM</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{313265E4-F09C-4299-8103-1CE8438FEA85}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ImagingModeSPIM.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

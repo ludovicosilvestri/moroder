@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="PI drivers" Type="Folder" URL="../PI drivers">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="StageSPIM.lvclass" Type="LVClass" URL="../StageSPIM_4/StageSPIM.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -471,6 +474,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
@@ -529,6 +533,7 @@
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
+				<Item Name="Write JPEG File(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File(6_1).vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
@@ -537,95 +542,19 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="#5.vi" Type="VI" URL="../PI drivers/Low Level/Special command.llb/#5.vi"/>
-			<Item Name="#5_old.vi" Type="VI" URL="../PI drivers/Low Level/Old commands.llb/#5_old.vi"/>
-			<Item Name="#7.vi" Type="VI" URL="../PI drivers/Low Level/Special command.llb/#7.vi"/>
-			<Item Name="#24.vi" Type="VI" URL="../PI drivers/Low Level/Special command.llb/#24.vi"/>
-			<Item Name="*IDN?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/*IDN?.vi"/>
-			<Item Name="Analog FGlobal.vi" Type="VI" URL="../PI drivers/Low Level/Analog control.llb/Analog FGlobal.vi"/>
-			<Item Name="Analog Functions.vi" Type="VI" URL="../PI drivers/Low Level/Analog control.llb/Analog Functions.vi"/>
-			<Item Name="Analog Receive String.vi" Type="VI" URL="../PI drivers/Low Level/Analog control.llb/Analog Receive String.vi"/>
-			<Item Name="Assign booleans from string to axes.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Assign booleans from string to axes.vi"/>
-			<Item Name="Assign NaN for chosen axes.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Assign NaN for chosen axes.vi"/>
-			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Assign values from string to axes.vi"/>
-			<Item Name="Available Analog Commands.ctl" Type="VI" URL="../PI drivers/Low Level/Analog control.llb/Available Analog Commands.ctl"/>
-			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
-			<Item Name="Available DLLs.ctl" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Available DLLs.ctl"/>
-			<Item Name="Available interfaces.ctl" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Available interfaces.ctl"/>
-			<Item Name="Build command substring.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Build command substring.vi"/>
-			<Item Name="Build query command substring.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
-			<Item Name="Build SPA command substring.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
-			<Item Name="Close connection if open.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Close connection if open.vi"/>
-			<Item Name="close shutter.vi" Type="VI" URL="../../dependencies/utilities/close shutter.vi"/>
-			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Commanded axes connected?.vi"/>
-			<Item Name="Controller names.ctl" Type="VI" URL="../PI drivers/Low Level/General command.llb/Controller names.ctl"/>
-			<Item Name="CST?.vi" Type="VI" URL="../PI drivers/Low Level/Special command.llb/CST?.vi"/>
-			<Item Name="CTO.vi" Type="VI" URL="../PI drivers/Low Level/Special command.llb/CTO.vi"/>
-			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Cut out additional spaces.vi"/>
-			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
-			<Item Name="Define connected axes.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
-			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/Define connected systems (Array).vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ERR?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/ERR?.vi"/>
-			<Item Name="FNL.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/FNL.vi"/>
-			<Item Name="FPL.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/FPL.vi"/>
-			<Item Name="FRF.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/FRF.vi"/>
-			<Item Name="FRF?.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/FRF?.vi"/>
-			<Item Name="GCSTranslateError.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/GCSTranslateError.vi"/>
-			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
-			<Item Name="GCSTranslator.dll" Type="Document" URL="../PI drivers/Low Level/GCSTranslator.dll"/>
-			<Item Name="General wait for movement to stop.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/General wait for movement to stop.vi"/>
-			<Item Name="Get all axes.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Get all axes.vi"/>
-			<Item Name="Get arrays without blanks.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Get arrays without blanks.vi"/>
-			<Item Name="Get lines from string.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Get lines from string.vi"/>
-			<Item Name="Global Analog.vi" Type="VI" URL="../PI drivers/Low Level/Analog control.llb/Global Analog.vi"/>
-			<Item Name="Global DaisyChain.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Global DaisyChain.vi"/>
-			<Item Name="Global1.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Global1.vi"/>
-			<Item Name="Global2 (Array).vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
-			<Item Name="HLT.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/HLT.vi"/>
-			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
-			<Item Name="Initialize Global1.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
-			<Item Name="Initialize Global2.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
-			<Item Name="Is DaisyChain open.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Is DaisyChain open.vi"/>
-			<Item Name="LIM?.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/LIM?.vi"/>
-			<Item Name="Mercury_GCS_Configuration_Setup.vi" Type="VI" URL="../PI drivers/Mercury_GCS_Configuration_Setup.vi"/>
-			<Item Name="MOV.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/MOV.vi"/>
-			<Item Name="MOV?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/MOV?.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ONT?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/ONT?.vi"/>
-			<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
-			<Item Name="PI Receive String.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/PI Receive String.vi"/>
-			<Item Name="PI Send String.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/PI Send String.vi"/>
-			<Item Name="PI VISA Receive Characters.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/PI VISA Receive Characters.vi"/>
-			<Item Name="POS?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/POS?.vi"/>
-			<Item Name="Return space.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Return space.vi"/>
-			<Item Name="RON.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/RON.vi"/>
-			<Item Name="RON?.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/RON?.vi"/>
-			<Item Name="SAI?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/SAI?.vi"/>
-			<Item Name="Select DaisyChain device.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Select DaisyChain device.vi"/>
-			<Item Name="Select USB device.vi" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Select USB device.vi"/>
-			<Item Name="Select values for chosen axes.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Select values for chosen axes.vi"/>
-			<Item Name="Set RON and return RON status.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Set RON and return RON status.vi"/>
-			<Item Name="STA?.vi" Type="VI" URL="../PI drivers/Low Level/Special command.llb/STA?.vi"/>
-			<Item Name="String with ASCII code conversion.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/String with ASCII code conversion.vi"/>
-			<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
-			<Item Name="SVO.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/SVO.vi"/>
-			<Item Name="SVO?.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/SVO?.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Termination character.ctl" Type="VI" URL="../PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
-			<Item Name="TMN?.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/TMN?.vi"/>
-			<Item Name="TMX?.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/TMX?.vi"/>
-			<Item Name="TRS?.vi" Type="VI" URL="../PI drivers/Low Level/Limits.llb/TRS?.vi"/>
-			<Item Name="VEL.vi" Type="VI" URL="../PI drivers/Low Level/General command.llb/VEL.vi"/>
-			<Item Name="Wait for axes to stop.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Wait for axes to stop.vi"/>
-			<Item Name="Wait for controller ready.vi" Type="VI" URL="../PI drivers/Low Level/Support.llb/Wait for controller ready.vi"/>
-			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../PI drivers/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
+			<Item Name="winmm.dll" Type="Document" URL="winmm.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="StageSPIM_4" Type="EXE">
@@ -637,21 +566,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Executables/Stage4</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D4B7A1F4-15A3-4FE7-9B03-8904FB3AA1DE}</Property>
 				<Property Name="Destination[0].destName" Type="Str">StageSPIM_4.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Executables/Stage4/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/NI_AB_PROJECTNAME/StageSPIM_4.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Executables/Stage4/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/StageSPIM.lvclass/donkey-icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D20CBD2-F79B-4FEF-A7D6-E2E04A203BA8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E419FA2A-EA9A-4641-95AD-B91FC7503BAA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/StageSPIM.lvclass/Main.vi</Property>
