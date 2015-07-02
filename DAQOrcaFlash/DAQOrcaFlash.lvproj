@@ -714,7 +714,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DAQOrcaFlash</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">51</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">54</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">DAQOrcaFlash</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013</Property>
