@@ -791,18 +791,99 @@
 			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="AOTF" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{07B18F3B-6BC1-49DE-92CD-FD1603B81B79}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{77E9A3A9-3DE7-4BA7-BDA5-C07E3E1247B9}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{69CBBCCA-CDBE-4ECE-9D16-51D98D8E65AF}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AOTF</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/aotf</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8A7846D7-4632-43EE-A469-A3051008A6AD}</Property>
+				<Property Name="Destination[0].destName" Type="Str">AOTF.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/aotf/AOTF.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/aotf/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/AOTF.lvclass/cameleon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F2C45BE-B96C-4670-B4E4-0C02D4FD9DEB}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AOTF.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">AOTF</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">AOTF</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">AOTF</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{62BEC478-FC6E-40AA-8E8B-620817E74A8A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AOTF.exe</Property>
+			</Item>
+			<Item Name="Cobolt" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{172D41F7-DBF9-4EE8-A9E9-4B84F3DB6BDA}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{C400C87F-3943-4BD7-B0EA-8799EDE46D3D}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D59B6A75-AC32-4488-AB0B-846A3DA5D12D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Cobolt</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5FEA199A-32D5-4BA1-85AE-4247762CF083}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Cobolt.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt/Cobolt.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Cobolt.lvclass/firefly2.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{14BFAAF8-678E-4FA0-B0B3-F638CDDBA3F5}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cobolt.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Cobolt</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Cobolt</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">Cobolt</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8B3FFCDB-BB10-46DC-8781-AC3DFA88F3ED}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Cobolt.exe</Property>
+			</Item>
 			<Item Name="ImageStack" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{86231EF1-24F0-46A9-95D3-80416D0EAB6F}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{70C36D7C-91EE-427C-BDB3-BC241DAF7A06}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{38E3C537-A000-480D-88AB-AC1B9456F478}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F160C705-4DAA-4356-9225-4200D6F44E60}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F735F4EE-36AC-4686-8AE7-E4F37027BD1D}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0FFD68D7-7B21-44AC-9025-049FE530CA77}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ImageStack</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{89EBD650-D1D6-492B-8950-D78E0C3A9F2B}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{51F394CA-D4B5-43E6-907D-EDB2EBBB1925}</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImageStack.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack/ImageStack.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -814,7 +895,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ImageStack.lvclass/giraffe.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F4A6FA6-7E08-42BA-9E3C-AB3D204AFD72}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{14BFAAF8-678E-4FA0-B0B3-F638CDDBA3F5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImageStack.lvclass/Main.vi</Property>
@@ -827,21 +908,22 @@
 				<Property Name="TgtF_internalName" Type="Str">ImageStack</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">ImageStack</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{54095531-20A8-446C-9F01-B90E54125968}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F027CB77-A1BF-4111-85DE-694B9249A71A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImageStack.exe</Property>
 			</Item>
 			<Item Name="ImagingModeSPIM" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{20D827EE-158C-49CD-A24A-DD9F678DE30C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{49737952-21FA-4CF2-85C8-D48541AC765F}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C7D95057-F8B7-451A-BCF5-2B7779DD15AA}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7C9CCDDB-C375-46D6-BCEE-B2C90BA001F7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BC0C6B91-6E26-42E5-93C0-AACAE543FED3}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{ECE731A2-2796-4CB3-A4F8-7FED73D68407}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ImagingModeSPIM</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{D3C5C911-280D-41DF-80BC-72C5E172A894}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6D791B7F-C3EC-4D6E-B8D6-6C271C040A38}</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImagingModeSPIM.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM/ImagingModeSPIM.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -853,7 +935,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ImagingModeSPIM.lvclass/clownfish.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C70FFC8B-F743-4E8A-99C1-A4195F2F77F4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{14BFAAF8-678E-4FA0-B0B3-F638CDDBA3F5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImagingModeSPIM.lvclass/Main.vi</Property>
@@ -866,8 +948,48 @@
 				<Property Name="TgtF_internalName" Type="Str">ImagingModeSPIM</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">ImagingModeSPIM</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{313265E4-F09C-4299-8103-1CE8438FEA85}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{BD8AE24A-5975-44B2-AE9B-5EA8EC304059}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImagingModeSPIM.exe</Property>
+			</Item>
+			<Item Name="Tomo" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F3D26BD4-7211-4EB0-AA7F-5EBBCAFEB19E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CB7C6383-41D0-448C-9737-8BAC94EB8528}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B5A8145D-AACA-40B2-B1A8-9F3BF6353BB6}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tomo</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/tomo</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{76F95CBB-1380-48CC-8CC6-890DCE5A4BB3}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tomo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/tomo/Tomo.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/tomo/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Tomo.lvclass/lion-icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{14BFAAF8-678E-4FA0-B0B3-F638CDDBA3F5}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tomo.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tomo</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tomo</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">Tomo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{81136554-78A5-48C0-A2D0-064D07066D6F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tomo.exe</Property>
 			</Item>
 		</Item>
 	</Item>
