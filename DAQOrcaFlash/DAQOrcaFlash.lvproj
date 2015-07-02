@@ -651,9 +651,9 @@
 			</Item>
 			<Item Name="file_action_enum.ctl" Type="VI" URL="../FileTransfer/file_action_enum.ctl"/>
 			<Item Name="Find best fit.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Find best fit.vi"/>
-			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/Image/Image.lvclass"/>
 			<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/ImageCollection/ImageCollection.lvclass"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Mean values 2Darray.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Mean values 2Darray.vi"/>
 			<Item Name="Move files.vi" Type="VI" URL="../FileTransfer/Move files.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -669,7 +669,9 @@
 			<Item Name="Rotate 2D array.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Rotate 2D array.vi"/>
 			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../dependencies/utilities/Semicolon string to array.vi"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/SpaceVector/SpaceVector.lvclass"/>
-			<Item Name="String array to semicolon.vi" Type="VI" URL="../../dependencies/utilities/String array to semicolon.vi"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="target_format_enum.ctl" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/classes/Image/target_format_enum.ctl"/>
 			<Item Name="TIFFManagement.lvlib" Type="Library" URL="../../../Lucid/LabVIEW/dependencies/classes/TIFFManagement/TIFFManagement.lvlib"/>
 			<Item Name="tmcamcon.dll" Type="Document" URL="tmcamcon.dll">
@@ -702,7 +704,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/DAQOrcaFlash.lvclass/icon/orca.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{77D00488-26BC-4003-B248-29991C07CF84}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5452E235-2350-4AC7-98AF-49E8FA39D467}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DAQOrcaFlash.lvclass/Main.vi</Property>
@@ -712,7 +714,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DAQOrcaFlash</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">45</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">54</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">DAQOrcaFlash</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013</Property>
