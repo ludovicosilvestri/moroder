@@ -667,7 +667,6 @@
 			</Item>
 			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/clusters/range_offset_cluster.ctl"/>
 			<Item Name="Rotate 2D array.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Rotate 2D array.vi"/>
-			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../dependencies/utilities/Semicolon string to array.vi"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -714,7 +713,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DAQOrcaFlash</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">54</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">56</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">DAQOrcaFlash</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013</Property>
