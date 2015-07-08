@@ -71,6 +71,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
+		<Item Name="Get custom filepath.vi" Type="VI" URL="../Get custom filepath.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2*$&gt;8.U&lt;WUA=W&amp;W;7ZH)("B&gt;'A!!$*!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!12%&amp;24X*D95:M98.I)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2%16&amp;0=G.B2GRB=WAO&lt;(:D&lt;'&amp;T=Q!!$U2"55^S9W&amp;'&lt;'&amp;T;#"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
 		<Item Name="Get filepath.vi" Type="VI" URL="../Get filepath.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;'!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"J!-P````]2:H6M&lt;#"T&gt;'^S97&gt;F)("B&gt;'A!-E"Q!"Y!!"952%&amp;24X*D95:M98.I,GRW9WRB=X-!!""%16&amp;0=G.B2GRB=WAA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!02%&amp;24X*D95:M98.I)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -871,7 +880,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
 		<Item Name="potentially create appended path.vi" Type="VI" URL="../potentially create appended path.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;@!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!(E!S`````R6D;'6D;W6E)':J&lt;'5A&gt;']A&gt;X*J&gt;'5!"!!!!$*!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!12%&amp;24X*D95:M98.I)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$,`````$7:J&lt;'5A&gt;']A&gt;X*J&gt;'5!$%!B"U*P&lt;WRF97Y!-%"Q!"Y!!"952%&amp;24X*D95:M98.I,GRW9WRB=X-!!!^%16&amp;0=G.B2GRB=WAA;7Y!6!$Q!!Q!!Q!%!!5!"A!&amp;!!5!"1!&amp;!!=!#!!*!!I$!!"Y!!!.#!!!$1E!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!+!!!!#!!!!*!!!!!!!1!,!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-P````]*:GFM:3"Q982I!$*!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!12%&amp;24X*D95:M98.I)'^V&gt;!!!%E!S`````QFC98.F)("B&gt;'A!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31$$`````#5:J&lt;'5A&lt;G&amp;N:1!-1#%(1G^P&lt;'6B&lt;A!Q1(!!(A!!&amp;B2%16&amp;0=G.B2GRB=WAO&lt;(:D&lt;'&amp;T=Q!!$U2"55^S9W&amp;'&lt;'&amp;T;#"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!=!#!!*!!I!#Q-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!)!!!!#!!!!1I!!!!)!!!!E!!!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
