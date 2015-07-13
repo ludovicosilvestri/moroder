@@ -176,6 +176,7 @@
 		</Item>
 	</Item>
 	<Item Name="tools" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Check if at destination.vi" Type="VI" URL="../Check if at destination.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%F!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!)1^B&gt;#"E:8.U;7ZB&gt;'FP&lt;D]!+E"Q!"Y!!"-25X2B:W645%F.,GRW9WRB=X-!$6.U97&gt;F5V"*43"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!K1(!!(A!!%R&amp;4&gt;'&amp;H:6.135UO&lt;(:D&lt;'&amp;T=Q!-5X2B:W645%F.)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -185,15 +186,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
-		<Item Name="Check if within limits.vi" Type="VI" URL="../Check if within limits.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'1!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!B!":!1!!"`````Q!%#'.P:8*D:71`!!!.1!I!"UZV&lt;76S;7-!*%"!!!(`````!!9718"Q=G^W:71A='^T&gt;'FP&lt;C"B=H*B?1!!+E"Q!"Y!!"-25X2B:W645%F.,GRW9WRB=X-!$6.U97&gt;F5V"*43"P&gt;81!&amp;E!B%7^O:3"B?'FT)'.P:8*D:71`!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"Z!1!!"`````Q!'%6"P=WFU;7^O)'&amp;S=G&amp;Z)'FO!#J!=!!?!!!4%6.U97&gt;F5V"*43ZM&gt;G.M98.T!!R4&gt;'&amp;H:6.135UA;7Y!!&amp;1!]!!-!!-!"1!(!!A!#1!+!!I!#A!,!!I!$!!.!Q!!?!!!$1A!!!E!!!!.#A!!D1M!!!E!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!1I!!!#1!!!!!!%!$A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
-		</Item>
 		<Item Name="close shutter.vi" Type="VI" URL="../close shutter.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!4%6.U97&gt;F5V"*43ZM&gt;G.M98.T!!V4&gt;'&amp;H:6.135UA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!+E"Q!"Y!!"-25X2B:W645%F.,GRW9WRB=X-!$&amp;.U97&gt;F5V"*43"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -202,6 +194,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
+		<Item Name="Check if within limits.vi" Type="VI" URL="../Check if within limits.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'1!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!B!":!1!!"`````Q!%#'.P:8*D:71`!!!.1!I!"UZV&lt;76S;7-!*%"!!!(`````!!9718"Q=G^W:71A='^T&gt;'FP&lt;C"B=H*B?1!!+E"Q!"Y!!"-25X2B:W645%F.,GRW9WRB=X-!$6.U97&gt;F5V"*43"P&gt;81!&amp;E!B%7^O:3"B?'FT)'.P:8*D:71`!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"Z!1!!"`````Q!'%6"P=WFU;7^O)'&amp;S=G&amp;Z)'FO!#J!=!!?!!!4%6.U97&gt;F5V"*43ZM&gt;G.M98.T!!R4&gt;'&amp;H:6.135UA;7Y!!&amp;1!]!!-!!-!"1!(!!A!#1!+!!I!#A!,!!I!$!!.!Q!!?!!!$1A!!!E!!!!.#A!!D1M!!!E!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!1I!!!#1!!!!!!%!$A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Initialise Global variables.vi" Type="VI" URL="../Initialise Global variables.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!4%6.U97&gt;F5V"*43ZM&gt;G.M98.T!!V4&gt;'&amp;H:6.135UA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!+E"Q!"Y!!"-25X2B:W645%F.,GRW9WRB=X-!$&amp;.U97&gt;F5V"*43"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
