@@ -789,6 +789,7 @@
 			<Item Name="Termination character.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
 			<Item Name="TMN?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMN?.vi"/>
 			<Item Name="TMX?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMX?.vi"/>
+			<Item Name="TRO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/TRO.vi"/>
 			<Item Name="TRS?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TRS?.vi"/>
 			<Item Name="VEL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/VEL.vi"/>
 			<Item Name="Wait for axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for axes to stop.vi"/>
