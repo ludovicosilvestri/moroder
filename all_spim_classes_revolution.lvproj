@@ -723,7 +723,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="email sender.vi" Type="VI" URL="../dependencies/utilities/email sender.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
 			<Item Name="FPL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FPL.vi"/>
@@ -780,9 +779,6 @@
 			<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
 			<Item Name="SVO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/SVO.vi"/>
 			<Item Name="SVO?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/SVO?.vi"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
