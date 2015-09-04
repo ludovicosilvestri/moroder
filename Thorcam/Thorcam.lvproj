@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,10 +11,91 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="BMC.lvclass" Type="LVClass" URL="../BMC/BMC.lvclass"/>
-		<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
+		<Item Name="uc480" Type="Folder">
+			<Item Name="errors" Type="Folder">
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/errors/dir.mnu"/>
+				<Item Name="Error_Report_en.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/errors/Error_Report_en.vi"/>
+				<Item Name="Error_Report_ger.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/errors/Error_Report_ger.vi"/>
+			</Item>
+			<Item Name="Examples" Type="Folder">
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/Examples/dir.mnu"/>
+				<Item Name="uc480_LiveStream_8bit.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Examples/uc480_LiveStream_8bit.vi"/>
+				<Item Name="uc480_LiveStream_32bit.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Examples/uc480_LiveStream_32bit.vi"/>
+				<Item Name="uc480_LiveStream_32bit_Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Examples/uc480_LiveStream_32bit_Sequence.vi"/>
+				<Item Name="uc480_LiveStream_32bit_Vision.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Examples/uc480_LiveStream_32bit_Vision.vi"/>
+				<Item Name="uc480_LiveStream_32bit_Vision_Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Examples/uc480_LiveStream_32bit_Vision_Sequence.vi"/>
+				<Item Name="uc480_SingleCapture_8bit.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Examples/uc480_SingleCapture_8bit.vi"/>
+				<Item Name="uc480_Trigger_8bit.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Examples/uc480_Trigger_8bit.vi"/>
+			</Item>
+			<Item Name="Flash" Type="Folder">
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/Flash/dir.mnu"/>
+				<Item Name="GetGlobalFlashDelays.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Flash/GetGlobalFlashDelays.vi"/>
+				<Item Name="SetFlashDelay.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Flash/SetFlashDelay.vi"/>
+				<Item Name="SetFlashStrobe.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Flash/SetFlashStrobe.vi"/>
+			</Item>
+			<Item Name="Information" Type="Folder">
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/Information/dir.mnu"/>
+				<Item Name="GetActImgMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetActImgMem.vi"/>
+				<Item Name="GetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetColorMode.vi"/>
+				<Item Name="GetExposureRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetExposureRange.vi"/>
+				<Item Name="GetFramesPerSecond.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetFramesPerSecond.vi"/>
+				<Item Name="GetFrameTimeRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetFrameTimeRange.vi"/>
+				<Item Name="GetImageSize.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetImageSize.vi"/>
+				<Item Name="GetNumberOfCameras.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetNumberOfCameras.vi"/>
+				<Item Name="GetPixelClockRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetPixelClockRange.vi"/>
+				<Item Name="HasVideoStarted.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/HasVideoStarted.vi"/>
+				<Item Name="IsMemoryBoardConnected.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/IsMemoryBoardConnected.vi"/>
+				<Item Name="IsVideoFinish.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/IsVideoFinish.vi"/>
+			</Item>
+			<Item Name="Sequence" Type="Folder">
+				<Item Name="AddToSequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/AddToSequence.vi"/>
+				<Item Name="ClearSequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/ClearSequence.vi"/>
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/Sequence/dir.mnu"/>
+				<Item Name="GetActSeqBuf.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/GetActSeqBuf.vi"/>
+				<Item Name="LockSeqBuf.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/LockSeqBuf.vi"/>
+				<Item Name="UnlockSeqBuf.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/UnlockSeqBuf.vi"/>
+			</Item>
+			<Item Name="Settings" Type="Folder">
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/Settings/dir.mnu"/>
+				<Item Name="LoadParameters.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/LoadParameters.vi"/>
+				<Item Name="SaveParameters.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SaveParameters.vi"/>
+				<Item Name="SetAOI.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAOI.vi"/>
+				<Item Name="SetAutoParameter.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAutoParameter.vi"/>
+				<Item Name="SetBinning.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetBinning.vi"/>
+				<Item Name="SetBlCompensation.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetBlCompensation.vi"/>
+				<Item Name="SetColorCorrection.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetColorCorrection.vi"/>
+				<Item Name="SetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetColorMode.vi"/>
+				<Item Name="SetEdgeEnhancement.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetEdgeEnhancement.vi"/>
+				<Item Name="SetErrorReport.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetErrorReport.vi"/>
+				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetExposureTime.vi"/>
+				<Item Name="SetFrameRate.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetFrameRate.vi"/>
+				<Item Name="SetGamma.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetGamma.vi"/>
+				<Item Name="SetHardwareGain.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHardwareGain.vi"/>
+				<Item Name="SetHotPixelCorrection.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHotPixelCorrection.vi"/>
+				<Item Name="SetPixelClock.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetPixelClock.vi"/>
+				<Item Name="SetRopEffect.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetRopEffect.vi"/>
+				<Item Name="SetSubSampling.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetSubSampling.vi"/>
+			</Item>
+			<Item Name="Trigger" Type="Folder">
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/Trigger/dir.mnu"/>
+				<Item Name="SetExternalTrigger.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Trigger/SetExternalTrigger.vi"/>
+			</Item>
+			<Item Name="ArrayToVision.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ArrayToVision.vi"/>
+			<Item Name="CaptureVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/CaptureVideo.vi"/>
+			<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/uc480/dir.mnu"/>
+			<Item Name="ExitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ExitCamera.vi"/>
+			<Item Name="FreeImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreeImageMem.vi"/>
+			<Item Name="FreezeVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreezeVideo.vi"/>
+			<Item Name="GetSingleImage.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/GetSingleImage.vi"/>
+			<Item Name="InitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/InitCamera.vi"/>
+			<Item Name="MemoryFreezeVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/MemoryFreezeVideo.vi"/>
+			<Item Name="ResetToDefault.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ResetToDefault.vi"/>
+			<Item Name="SetAllocatedImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/SetAllocatedImageMem.vi"/>
+			<Item Name="SetImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/SetImageMem.vi"/>
+			<Item Name="StopLiveVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/StopLiveVideo.vi"/>
+		</Item>
+		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -423,6 +505,11 @@
 				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
 				<Item Name="Digital to Binary.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Binary.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
+				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
+				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
+				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
+				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U8.vi"/>
 				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
@@ -465,12 +552,17 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/Vision/Color.llb/IMAQ ArrayToColorImage"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
@@ -534,7 +626,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="create standard file path.vi" Type="VI" URL="../../dependencies/utilities/create standard file path.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -542,7 +633,16 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="uc480.dll" Type="Document" URL="uc480.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="uc480_LabVIEW.dll" Type="Document" URL="uc480_LabVIEW.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
