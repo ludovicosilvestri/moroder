@@ -619,7 +619,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Find best fit.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Find best fit.vi"/>
-			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../dependencies/utilities/Give log reference if debugging.vi"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/Image/Image.lvclass"/>
 			<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/ImageCollection/ImageCollection.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -637,7 +636,6 @@
 			<Item Name="Rotate 2D array.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Rotate 2D array.vi"/>
 			<Item Name="Semicolon string to array.vi" Type="VI" URL="../dependencies/utilities/Semicolon string to array.vi"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/SpaceVector/SpaceVector.lvclass"/>
-			<Item Name="String array to semicolon.vi" Type="VI" URL="../dependencies/utilities/String array to semicolon.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
