@@ -9,7 +9,7 @@
 
 typedef double PixelType;
 
-__declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType * Roy, int width, int height, double radius, double epsilon, double percentage, int maxIteration, double * xTranslation, double * yTranslation, double * quality, double * numberOfIterations)
+__declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType * Roy, int width, int height, double start_x, double start_y, double percentage, unsigned int numberOfBins, int maxIteration, double * xTranslation, double * yTranslation, double * quality, double * numberOfIterations)
 {
 	/* First part: takes care of importing the images from Rob and Roy buffers */
 
@@ -61,15 +61,18 @@ __declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType
 
 	TransformType::Pointer movingInitialTransform = TransformType::New();
 	TransformType::ParametersType initialParameters(movingInitialTransform->GetNumberOfParameters());
-	initialParameters[0] = 0.0;
-	initialParameters[1] = 0.0;
+	initialParameters[0] = start_x;
+	initialParameters[1] = start_y;
 	movingInitialTransform->SetParameters(initialParameters);
 
-	unsigned int numberOfBins = 50;
+	//unsigned int numberOfBins = 50;
 	metric->SetNumberOfHistogramBins(numberOfBins);
 	metric->SetUseMovingImageGradientFilter(false);
 	metric->SetUseFixedImageGradientFilter(false);
 	
+	double radius = 20;
+	double epsilon = 0.1;
+
 	optimizer->SetNormalVariateGenerator(generator);
 	optimizer->Initialize(radius);
 	optimizer->SetEpsilon(epsilon);
