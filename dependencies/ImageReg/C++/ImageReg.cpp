@@ -4,12 +4,12 @@
 #include "itkTranslationTransform.h"
 #include "itkMattesMutualInformationImageToImageMetricv4.h"
 #include"itkOnePlusOneEvolutionaryOptimizerv4.h"
-#include"itkNormalVariateGenerator.h"
+#include"itkNormalVariateGenerator.h" 
 #include <iostream>
 
 typedef double PixelType;
 
-__declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType * Roy, int width, int height, double start_x, double start_y, double percentage, unsigned int numberOfBins, int maxIteration, double * xTranslation, double * yTranslation, double * quality, double * numberOfIterations)
+__declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType * Roy, int width, int height, double start_x, double start_y, double percentage, unsigned int numberOfBins, int maxIteration, double * xTranslation, double * yTranslation, double * quality, double * numberOfIterations, char * error)
 {
 	/* First part: takes care of importing the images from Rob and Roy buffers */
 
@@ -118,7 +118,8 @@ __declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType
 	}
 	catch (itk::ExceptionObject & err)
 	{
-		return 1; //  TO DO: add better error handling
+		strcpy(error, err.what());
+		return 1; 
 	}
 	return 0;
 }
