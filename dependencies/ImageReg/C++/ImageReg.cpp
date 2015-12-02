@@ -119,7 +119,7 @@ __declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType
 	catch (itk::ExceptionObject & err)
 	{
 		strcpy(error, err.what());
-		return 1; //  TO DO: add better error handling
+		return 1; 
 	}
 	return 0;
 }
