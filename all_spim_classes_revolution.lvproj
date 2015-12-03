@@ -592,6 +592,7 @@
 				<Item Name="FAE7CECC302C1CA00236481A335C8781" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAE7CECC302C1CA00236481A335C8781"/>
 				<Item Name="FFB65EE16C3DB2BF239B216432105F52" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FFB65EE16C3DB2BF239B216432105F52"/>
 				<Item Name="FFFD5D53F08FF732F1DDDD29D4EFDA44" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FFFD5D53F08FF732F1DDDD29D4EFDA44"/>
+				<Item Name="Find 1D String Array Flexibly.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/dependencies/Find 1D String Array Flexibly.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
