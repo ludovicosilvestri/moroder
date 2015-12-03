@@ -9,7 +9,7 @@
 
 typedef double PixelType;
 
-__declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType * Roy, int width, int height, double start_x, double start_y, double percentage, unsigned int numberOfBins, int maxIteration, double * xTranslation, double * yTranslation, double * quality, double * numberOfIterations, char error[500])
+__declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType * Roy, int width, int height, double start_x, double start_y, double percentage, unsigned int numberOfBins, int maxIteration, double * xTranslation, double * yTranslation, double * quality, double * numberOfIterations, char * error, int charlength)
 {
 	/* First part: takes care of importing the images from Rob and Roy buffers */
 
@@ -130,7 +130,7 @@ __declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType
 	}
 	catch (itk::ExceptionObject & err)
 	{
-		strcpy_s(error, 400, err.what());
+		strcpy_s(error, charlength, err.what());
 		return 1; 
 	}
 	return 0;
