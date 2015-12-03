@@ -69,10 +69,22 @@ __declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType
 	metric->SetNumberOfHistogramBins(numberOfBins);
 	metric->SetUseMovingImageGradientFilter(false);
 	metric->SetUseFixedImageGradientFilter(false);
-	
+
 	double radius = 20;
 	double epsilon = 0.1;
 
+	if (registration->GetCurrentLevel() == 0) 
+	{
+		radius = 10;
+		epsilon = 0.01;
+	}
+	else if (registration->GetCurrentLevel() == 1)
+	{
+		radius = 10;
+		epsilon = 0.01;
+	}
+	
+	
 	optimizer->SetNormalVariateGenerator(generator);
 	optimizer->Initialize(radius);
 	optimizer->SetEpsilon(epsilon);
@@ -93,9 +105,9 @@ __declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType
 
 	registration->SetMetric(metric);
 	
-	//RegistrationType::MetricSamplingStrategyType samplingStrategy = RegistrationType::RANDOM;
-	//registration->SetMetricSamplingStrategy(samplingStrategy);
-	//registration->SetMetricSamplingPercentage(percentage);
+	RegistrationType::MetricSamplingStrategyType samplingStrategy = RegistrationType::RANDOM;
+	registration->SetMetricSamplingStrategy(samplingStrategy);
+	registration->SetMetricSamplingPercentage(percentage);
 
 	registration->SetOptimizer(optimizer);
 	registration->SetFixedImage(importFilterRob->GetOutput());
@@ -118,7 +130,7 @@ __declspec(dllexport) int ImageRegistrationMutualInfo(PixelType * Rob, PixelType
 	}
 	catch (itk::ExceptionObject & err)
 	{
-		strcpy(error, err.what());
+		strcpy_s(error, 400, err.what());
 		return 1; 
 	}
 	return 0;
