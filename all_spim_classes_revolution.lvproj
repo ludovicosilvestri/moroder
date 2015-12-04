@@ -693,15 +693,9 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="#5.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/#5.vi"/>
-			<Item Name="#5_old.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Old commands.llb/#5_old.vi"/>
-			<Item Name="#7.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/#7.vi"/>
-			<Item Name="#24.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/#24.vi"/>
-			<Item Name="*IDN?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/*IDN?.vi"/>
 			<Item Name="Analog FGlobal.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog FGlobal.vi"/>
 			<Item Name="Analog Functions.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog Functions.vi"/>
 			<Item Name="Analog Receive String.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog Receive String.vi"/>
-			<Item Name="Assign booleans from string to axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Assign booleans from string to axes.vi"/>
-			<Item Name="Assign NaN for chosen axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Assign NaN for chosen axes.vi"/>
 			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Assign values from string to axes.vi"/>
 			<Item Name="Available Analog Commands.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Available Analog Commands.ctl"/>
 			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
@@ -715,29 +709,20 @@
 			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Commanded axes connected?.vi"/>
 			<Item Name="Controller names.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Controller names.ctl"/>
 			<Item Name="create_random_string.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
-			<Item Name="CST?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CST?.vi"/>
 			<Item Name="CTO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CTO.vi"/>
 			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Cut out additional spaces.vi"/>
-			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
-			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected systems (Array).vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
-			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
-			<Item Name="FPL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FPL.vi"/>
-			<Item Name="FRF.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FRF.vi"/>
-			<Item Name="FRF?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FRF?.vi"/>
 			<Item Name="GCSTranslateError.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/GCSTranslateError.vi"/>
 			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
 			<Item Name="GCSTranslator.dll" Type="Document" URL="../StageSPIM/PI drivers/Low Level/GCSTranslator.dll"/>
-			<Item Name="General wait for movement to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/General wait for movement to stop.vi"/>
 			<Item Name="Get all axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Get all axes.vi"/>
 			<Item Name="Get arrays without blanks.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Get arrays without blanks.vi"/>
 			<Item Name="Get lines from string.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Get lines from string.vi"/>
 			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../dependencies/utilities/Give log reference if debugging.vi"/>
-			<Item Name="Global Analog.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Global Analog.vi"/>
 			<Item Name="Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global DaisyChain.vi"/>
 			<Item Name="Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
@@ -746,11 +731,9 @@
 			<Item Name="Initialize Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
 			<Item Name="Initialize Global2.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
 			<Item Name="Is DaisyChain open.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Is DaisyChain open.vi"/>
-			<Item Name="LIM?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/LIM?.vi"/>
 			<Item Name="LUT cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/LUT cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/MaxPower cluster.ctl"/>
-			<Item Name="Mercury_GCS_Configuration_Setup.vi" Type="VI" URL="../StageSPIM/PI drivers/Mercury_GCS_Configuration_Setup.vi"/>
 			<Item Name="MOV.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
 			<Item Name="MOV?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV?.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -759,39 +742,21 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ONT?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ONT?.vi"/>
-			<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
 			<Item Name="PI Receive String.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI Receive String.vi"/>
 			<Item Name="PI Send String.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI Send String.vi"/>
 			<Item Name="PI VISA Receive Characters.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI VISA Receive Characters.vi"/>
 			<Item Name="POS?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/POS?.vi"/>
 			<Item Name="Return space.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Return space.vi"/>
-			<Item Name="RON.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/RON.vi"/>
-			<Item Name="RON?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/RON?.vi"/>
 			<Item Name="SAI?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/SAI?.vi"/>
-			<Item Name="Select DaisyChain device.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Select DaisyChain device.vi"/>
-			<Item Name="Select USB device.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Select USB device.vi"/>
-			<Item Name="Select values for chosen axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Select values for chosen axes.vi"/>
 			<Item Name="Semicolon string to array.vi" Type="VI" URL="../dependencies/utilities/Semicolon string to array.vi"/>
-			<Item Name="Set RON and return RON status.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Set RON and return RON status.vi"/>
-			<Item Name="STA?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/STA?.vi"/>
 			<Item Name="String array to semicolon.vi" Type="VI" URL="../dependencies/utilities/String array to semicolon.vi"/>
 			<Item Name="String with ASCII code conversion.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/String with ASCII code conversion.vi"/>
-			<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
-			<Item Name="SVO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/SVO.vi"/>
-			<Item Name="SVO?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/SVO?.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Termination character.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
-			<Item Name="TMN?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMN?.vi"/>
-			<Item Name="TMX?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMX?.vi"/>
 			<Item Name="TRO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/TRO.vi"/>
-			<Item Name="TRS?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TRS?.vi"/>
 			<Item Name="VEL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/VEL.vi"/>
-			<Item Name="Wait for axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for axes to stop.vi"/>
-			<Item Name="Wait for controller ready.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for controller ready.vi"/>
-			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AOTF" Type="EXE">
@@ -954,6 +919,45 @@
 				<Property Name="TgtF_productName" Type="Str">ImagingModeSPIM</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BD8AE24A-5975-44B2-AE9B-5EA8EC304059}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImagingModeSPIM.exe</Property>
+			</Item>
+			<Item Name="stagesSPIM" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{505D7D4F-22A8-45C5-BFEC-F3C8A1E16911}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3A1B9B21-54A1-400A-9D78-1D25B61BFE65}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5EEEA836-E1EC-4715-BA79-9D687B380E7D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">stagesSPIM</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B347DDC1-DFDB-4484-93E3-088D4EE8E788}</Property>
+				<Property Name="Destination[0].destName" Type="Str">stagesSPIM.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM/stagesSPIM.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/StageSPIM.lvclass/donkey-icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CC9CCE14-3080-413D-A0ED-245C25EA7747}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/StageSPIM.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">stagesSPIM</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">stagesSPIM</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">stagesSPIM</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A7C88BF1-A80C-434F-A03C-AAD2EC874356}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">stagesSPIM.exe</Property>
 			</Item>
 			<Item Name="Tomo" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
