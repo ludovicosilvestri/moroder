@@ -649,6 +649,7 @@
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
@@ -783,14 +784,12 @@
 			<Item Name="Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
 			<Item Name="HLT.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/HLT.vi"/>
-			<Item Name="ImageReg.dll" Type="Document" URL="../dependencies/ImageReg/C++/bin/Release/ImageReg.dll"/>
 			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
 			<Item Name="Initialize Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
 			<Item Name="Initialize Global2.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
 			<Item Name="Is DaisyChain open.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Is DaisyChain open.vi"/>
 			<Item Name="LUT cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/LUT cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MattesImageRegistration.vi" Type="VI" URL="../dependencies/ImageReg/MattesImageRegistration.vi"/>
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/MaxPower cluster.ctl"/>
 			<Item Name="MOV.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
 			<Item Name="MOV?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV?.vi"/>
