@@ -17,6 +17,7 @@
 		<Item Name="uc480" Type="Folder" URL="/&lt;instrlib&gt;/uc480">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="BinarizationRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/BinarizationRegistration.vi"/>
 		<Item Name="MattesImageRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/MattesImageRegistration.vi"/>
 		<Item Name="RegTester.vi" Type="VI" URL="../../dependencies/ImageReg/RegTester.vi"/>
 		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam.lvclass"/>
