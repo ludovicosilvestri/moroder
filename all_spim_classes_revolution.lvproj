@@ -19,8 +19,44 @@
 		<Item Name="ImageStack.lvclass" Type="LVClass" URL="../ImageStack/ImageStack/ImageStack.lvclass"/>
 		<Item Name="ImagingModeSPIM.lvclass" Type="LVClass" URL="../ImagingModeSPIM/ImagingModeSPIM/ImagingModeSPIM.lvclass"/>
 		<Item Name="StageSPIM.lvclass" Type="LVClass" URL="../StageSPIM/StageSPIM/StageSPIM.lvclass"/>
+		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam/Thorcam.lvclass"/>
 		<Item Name="Tomo.lvclass" Type="LVClass" URL="../Tomo/Tomo/Tomo.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="CaptureVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/CaptureVideo.vi"/>
+				<Item Name="ExitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ExitCamera.vi"/>
+				<Item Name="FreeImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreeImageMem.vi"/>
+				<Item Name="FreezeVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreezeVideo.vi"/>
+				<Item Name="GetActImgMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetActImgMem.vi"/>
+				<Item Name="GetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetColorMode.vi"/>
+				<Item Name="GetExposureRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetExposureRange.vi"/>
+				<Item Name="GetFramesPerSecond.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetFramesPerSecond.vi"/>
+				<Item Name="GetFrameTimeRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetFrameTimeRange.vi"/>
+				<Item Name="GetImageSize.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetImageSize.vi"/>
+				<Item Name="GetNumberOfCameras.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetNumberOfCameras.vi"/>
+				<Item Name="GetPixelClockRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetPixelClockRange.vi"/>
+				<Item Name="HasVideoStarted.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/HasVideoStarted.vi"/>
+				<Item Name="InitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/InitCamera.vi"/>
+				<Item Name="IsVideoFinish.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/IsVideoFinish.vi"/>
+				<Item Name="LoadParameters.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/LoadParameters.vi"/>
+				<Item Name="ResetToDefault.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ResetToDefault.vi"/>
+				<Item Name="SaveParameters.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SaveParameters.vi"/>
+				<Item Name="SetAllocatedImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/SetAllocatedImageMem.vi"/>
+				<Item Name="SetAOI.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAOI.vi"/>
+				<Item Name="SetAOIProcedure.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAOIProcedure.vi"/>
+				<Item Name="SetAutoParameter.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAutoParameter.vi"/>
+				<Item Name="SetBlCompensation.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetBlCompensation.vi"/>
+				<Item Name="SetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetColorMode.vi"/>
+				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetExposureTime.vi"/>
+				<Item Name="SetFrameRate.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetFrameRate.vi"/>
+				<Item Name="SetGamma.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetGamma.vi"/>
+				<Item Name="SetHardwareGain.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHardwareGain.vi"/>
+				<Item Name="SetHotPixelCorrection.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHotPixelCorrection.vi"/>
+				<Item Name="SetImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/SetImageMem.vi"/>
+				<Item Name="SetPixelClock.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetPixelClock.vi"/>
+				<Item Name="StopLiveVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/StopLiveVideo.vi"/>
+				<Item Name="z_StringGetThrough_.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/z_StringGetThrough_.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -609,7 +645,27 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQ WindClose" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindClose"/>
+				<Item Name="IMAQ WindDraw" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindDraw"/>
+				<Item Name="IMAQ WindZoom 2" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindZoom 2"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
@@ -626,6 +682,7 @@
 				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
 				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
 				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
@@ -655,6 +712,7 @@
 				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -701,6 +759,7 @@
 			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
 			<Item Name="Available DLLs.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLLs.ctl"/>
 			<Item Name="Available interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available interfaces.ctl"/>
+			<Item Name="BinarizationRegistration.vi" Type="VI" URL="../dependencies/ImageReg/BinarizationRegistration.vi"/>
 			<Item Name="Build command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build command substring.vi"/>
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
@@ -712,9 +771,6 @@
 			<Item Name="CTO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CTO.vi"/>
 			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Cut out additional spaces.vi"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="GCSTranslateError.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/GCSTranslateError.vi"/>
 			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
@@ -727,12 +783,14 @@
 			<Item Name="Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
 			<Item Name="HLT.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/HLT.vi"/>
+			<Item Name="ImageReg.dll" Type="Document" URL="../dependencies/ImageReg/C++/bin/Release/ImageReg.dll"/>
 			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
 			<Item Name="Initialize Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
 			<Item Name="Initialize Global2.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
 			<Item Name="Is DaisyChain open.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Is DaisyChain open.vi"/>
 			<Item Name="LUT cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/LUT cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MattesImageRegistration.vi" Type="VI" URL="../dependencies/ImageReg/MattesImageRegistration.vi"/>
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/MaxPower cluster.ctl"/>
 			<Item Name="MOV.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
 			<Item Name="MOV?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV?.vi"/>
@@ -740,6 +798,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PI Receive String.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI Receive String.vi"/>
@@ -756,6 +820,12 @@
 			</Item>
 			<Item Name="Termination character.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
 			<Item Name="TRO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/TRO.vi"/>
+			<Item Name="uc480.dll" Type="Document" URL="uc480.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="uc480_LabVIEW.dll" Type="Document" URL="uc480_LabVIEW.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="VEL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/VEL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
