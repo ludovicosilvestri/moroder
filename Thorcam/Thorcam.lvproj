@@ -20,6 +20,9 @@
 		<Item Name="RegTester.vi" Type="VI" URL="../../dependencies/ImageReg/RegTester.vi"/>
 		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="ArrayToVision.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/GetSingleImage Ordner/ArrayToVision.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -598,13 +601,13 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="uc480_64.dll" Type="Document" URL="uc480_64.dll">
+			<Item Name="uc480.dll" Type="Document" URL="uc480.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="uc480_LabVIEW_64.dll" Type="Document" URL="uc480_LabVIEW_64.dll">
+			<Item Name="uc480_LabVIEW.dll" Type="Document" URL="uc480_LabVIEW.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="uc480_tools_64.dll" Type="Document" URL="uc480_tools_64.dll">
+			<Item Name="uc480_tools.dll" Type="Document" URL="uc480_tools.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

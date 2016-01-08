@@ -1,3 +1,7 @@
 [My Computer]
+<<<<<<< HEAD
 My Computer = "172.19.178.56"
+=======
+My Computer = "192.168.1.7"
+>>>>>>> 0e5c16c637e1e566f20f255dc6ae067dcde322e2
 
