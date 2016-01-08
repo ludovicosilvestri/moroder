@@ -667,6 +667,7 @@
 			</Item>
 			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/clusters/range_offset_cluster.ctl"/>
 			<Item Name="Rotate 2D array.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/common/utilities/Rotate 2D array.vi"/>
+			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../dependencies/utilities/Semicolon string to array.vi"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../Lucid/LabVIEW/dependencies/classes/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
