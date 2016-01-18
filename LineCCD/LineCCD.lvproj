@@ -44,6 +44,8 @@
 				<Item Name="ALPHALAS CCD S Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/ALPHALAS CCD S Series.lvlib"/>
 				<Item Name="CaptureVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/CaptureVideo.vi"/>
 				<Item Name="ExitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ExitCamera.vi"/>
+				<Item Name="FreeImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreeImageMem.vi"/>
+				<Item Name="FreezeVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreezeVideo.vi"/>
 				<Item Name="GetActImgMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetActImgMem.vi"/>
 				<Item Name="GetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetColorMode.vi"/>
 				<Item Name="GetExposureRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetExposureRange.vi"/>
@@ -776,6 +778,7 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="BinarizationRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/BinarizationRegistration.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -783,8 +786,13 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
+			<Item Name="ImageReg.dll" Type="Document" URL="../../dependencies/ImageReg/C++/bin/Release/ImageReg.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MattesImageRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/MattesImageRegistration.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
