@@ -419,7 +419,6 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
-				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/_LabbitMQ_internal_deps/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -448,6 +447,7 @@
 				<Item Name="CC44AD91BA55028CB2EC25FEDAA0662A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CC44AD91BA55028CB2EC25FEDAA0662A"/>
 				<Item Name="CFE5026278E73FDC395AB021964B5DCA" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CFE5026278E73FDC395AB021964B5DCA"/>
 				<Item Name="Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Channel/Channel.lvclass"/>
+				<Item Name="Channel_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Channel/Channel_2012.lvclass"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
@@ -461,6 +461,7 @@
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Connection/Connection.lvclass"/>
+				<Item Name="Connection_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Connection/Connection_2012.lvclass"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
@@ -633,6 +634,7 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Exchange.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Exchange/Exchange.lvclass"/>
+				<Item Name="Exchange_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Exchange/Exchange_2012.lvclass"/>
 				<Item Name="F799083E828EF05FB566B571A7BB6A2E" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F799083E828EF05FB566B571A7BB6A2E"/>
 				<Item Name="FAB0FCF02C103A415945F996710BCDDF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAB0FCF02C103A415945F996710BCDDF"/>
 				<Item Name="FAE7CECC302C1CA00236481A335C8781" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAE7CECC302C1CA00236481A335C8781"/>
@@ -705,6 +707,8 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Queue/Queue.lvclass"/>
+				<Item Name="Queue_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Queue/Queue_2012.lvclass"/>
+				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -784,7 +788,6 @@
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
 			<Item Name="Close connection if open.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Close connection if open.vi"/>
-			<Item Name="close shutter.vi" Type="VI" URL="../dependencies/utilities/close shutter.vi"/>
 			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Commanded axes connected?.vi"/>
 			<Item Name="Controller names.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Controller names.ctl"/>
 			<Item Name="CST?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CST?.vi"/>
@@ -793,6 +796,9 @@
 			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
 			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected systems (Array).vi"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="email sender.vi" Type="VI" URL="../dependencies/utilities/email sender.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
@@ -1091,21 +1097,20 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/tomo</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/tomo</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{76F95CBB-1380-48CC-8CC6-890DCE5A4BB3}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Tomo.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/tomo/Tomo.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/tomo/Tomo.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/tomo/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/tomo/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Tomo.lvclass/lion-icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08FA970C-2451-4C0F-B765-34D043A8C1B5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A69D05E9-E82E-4F19-8A40-FCE8BC44F409}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tomo.lvclass/Main.vi</Property>
