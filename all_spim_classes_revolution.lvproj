@@ -18,13 +18,11 @@
 		<Item Name="Generate skewed triangular waveform.vi" Type="VI" URL="../dependencies/utilities/Generate skewed triangular waveform.vi"/>
 		<Item Name="ImageStack.lvclass" Type="LVClass" URL="../ImageStack/ImageStack/ImageStack.lvclass"/>
 		<Item Name="ImagingModeSPIM.lvclass" Type="LVClass" URL="../ImagingModeSPIM/ImagingModeSPIM/ImagingModeSPIM.lvclass"/>
-		<Item Name="LineCCD.lvclass" Type="LVClass" URL="../LineCCD/LineCCD/LineCCD.lvclass"/>
 		<Item Name="StageSPIM.lvclass" Type="LVClass" URL="../StageSPIM/StageSPIM/StageSPIM.lvclass"/>
 		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam/Thorcam.lvclass"/>
 		<Item Name="Tomo.lvclass" Type="LVClass" URL="../Tomo/Tomo/Tomo.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="ALPHALAS CCD S Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/ALPHALAS CCD S Series.lvlib"/>
 				<Item Name="CaptureVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/CaptureVideo.vi"/>
 				<Item Name="ExitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ExitCamera.vi"/>
 				<Item Name="FreeImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreeImageMem.vi"/>
@@ -419,6 +417,7 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
+				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -446,8 +445,7 @@
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="CC44AD91BA55028CB2EC25FEDAA0662A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CC44AD91BA55028CB2EC25FEDAA0662A"/>
 				<Item Name="CFE5026278E73FDC395AB021964B5DCA" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CFE5026278E73FDC395AB021964B5DCA"/>
-				<Item Name="Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Channel/Channel.lvclass"/>
-				<Item Name="Channel_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Channel/Channel_2012.lvclass"/>
+				<Item Name="Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Channel/Channel.lvclass"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
@@ -460,8 +458,7 @@
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Connection/Connection.lvclass"/>
-				<Item Name="Connection_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Connection/Connection_2012.lvclass"/>
+				<Item Name="Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Connection/Connection.lvclass"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
@@ -633,8 +630,7 @@
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Exchange.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Exchange/Exchange.lvclass"/>
-				<Item Name="Exchange_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Exchange/Exchange_2012.lvclass"/>
+				<Item Name="Exchange.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Exchange/Exchange.lvclass"/>
 				<Item Name="F799083E828EF05FB566B571A7BB6A2E" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F799083E828EF05FB566B571A7BB6A2E"/>
 				<Item Name="FAB0FCF02C103A415945F996710BCDDF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAB0FCF02C103A415945F996710BCDDF"/>
 				<Item Name="FAE7CECC302C1CA00236481A335C8781" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAE7CECC302C1CA00236481A335C8781"/>
@@ -690,7 +686,6 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
 				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
@@ -706,8 +701,7 @@
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
-				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Queue/Queue.lvclass"/>
-				<Item Name="Queue_2012.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/2012/Queue/Queue_2012.lvclass"/>
+				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Queue/Queue.lvclass"/>
 				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
@@ -788,6 +782,7 @@
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
 			<Item Name="Close connection if open.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Close connection if open.vi"/>
+			<Item Name="close shutter.vi" Type="VI" URL="../dependencies/utilities/close shutter.vi"/>
 			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Commanded axes connected?.vi"/>
 			<Item Name="Controller names.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Controller names.ctl"/>
 			<Item Name="CST?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CST?.vi"/>
@@ -805,9 +800,6 @@
 			<Item Name="FPL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FPL.vi"/>
 			<Item Name="FRF.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FRF.vi"/>
 			<Item Name="FRF?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FRF?.vi"/>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="GCSTranslateError.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/GCSTranslateError.vi"/>
 			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
 			<Item Name="GCSTranslator.dll" Type="Document" URL="../StageSPIM/PI drivers/Low Level/GCSTranslator.dll"/>
@@ -892,9 +884,9 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AOTF" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{07B18F3B-6BC1-49DE-92CD-FD1603B81B79}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{77E9A3A9-3DE7-4BA7-BDA5-C07E3E1247B9}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{69CBBCCA-CDBE-4ECE-9D16-51D98D8E65AF}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{66B9FD3F-238D-43D9-8888-749CF47CFC2B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3F88C34B-A8C5-4010-915D-939BDC0B077C}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1DE1D89E-2627-4FEB-9BC0-DB70C9005FAA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">AOTF</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -902,7 +894,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/aotf</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{8A7846D7-4632-43EE-A469-A3051008A6AD}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{83DD6770-FEED-4646-B621-17AEC951F70F}</Property>
 				<Property Name="Destination[0].destName" Type="Str">AOTF.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/aotf/AOTF.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -912,7 +904,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/AOTF.lvclass/cameleon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AA9D444A-9EC8-4A5D-9DFD-66A0DAEB13BA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C9E30920-F6B1-43C0-A960-3446E76FF84D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AOTF.lvclass/Main.vi</Property>
@@ -923,37 +915,36 @@
 				<Property Name="TgtF_fileDescription" Type="Str">AOTF</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">AOTF</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">AOTF</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{62BEC478-FC6E-40AA-8E8B-620817E74A8A}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{43722CB9-F4B9-4C74-8DCA-E32827D40B11}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">AOTF.exe</Property>
 			</Item>
 			<Item Name="Cobolt" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{172D41F7-DBF9-4EE8-A9E9-4B84F3DB6BDA}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C400C87F-3943-4BD7-B0EA-8799EDE46D3D}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{24611089-39F3-4538-BAC5-C21F75657B0A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{376263A9-ACD1-452D-9E70-18D918269265}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Cobolt.lvclass/ini/Cobolt.ini</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{D59B6A75-AC32-4488-AB0B-846A3DA5D12D}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{535F9D8A-DD9C-4BC1-B957-B52AD9472E0D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Cobolt</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{5FEA199A-32D5-4BA1-85AE-4247762CF083}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{38C5F337-C180-4F45-9D81-21CFA1A399A1}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cobolt.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt/Cobolt.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt/Cobolt.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/cobolt/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Cobolt.lvclass/firefly.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B273B58E-A9E7-4863-9B04-45218A49AAF0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DF70022-E63E-4564-9703-5F36CA60B264}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cobolt.lvclass/Main.vi</Property>
@@ -964,36 +955,35 @@
 				<Property Name="TgtF_fileDescription" Type="Str">Cobolt</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Cobolt</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">Cobolt</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{8B3FFCDB-BB10-46DC-8781-AC3DFA88F3ED}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9957EB8B-CFE8-467D-B74F-5DF15D250C63}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Cobolt.exe</Property>
 			</Item>
 			<Item Name="ImageStack" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F160C705-4DAA-4356-9225-4200D6F44E60}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F735F4EE-36AC-4686-8AE7-E4F37027BD1D}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0820820B-66A6-4611-B42D-7FFD5D056791}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{57D61EE6-8B58-4936-89BE-93CCC51FD87C}</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{0FFD68D7-7B21-44AC-9025-049FE530CA77}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{86FF8E04-79D2-4BCD-95B4-464C8092ED78}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ImageStack</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{51F394CA-D4B5-43E6-907D-EDB2EBBB1925}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{714940D0-98AC-4F75-9ABF-E80FEB850138}</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImageStack.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack/ImageStack.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack/ImageStack.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/imagestack/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ImageStack.lvclass/giraffe.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{14BFAAF8-678E-4FA0-B0B3-F638CDDBA3F5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DF70022-E63E-4564-9703-5F36CA60B264}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImageStack.lvclass/Main.vi</Property>
@@ -1004,36 +994,34 @@
 				<Property Name="TgtF_fileDescription" Type="Str">ImageStack</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">ImageStack</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">ImageStack</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F027CB77-A1BF-4111-85DE-694B9249A71A}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4B03BB25-59E7-402B-A443-9D83296EFADA}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImageStack.exe</Property>
 			</Item>
 			<Item Name="ImagingModeSPIM" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{7C9CCDDB-C375-46D6-BCEE-B2C90BA001F7}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{BC0C6B91-6E26-42E5-93C0-AACAE543FED3}</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{ECE731A2-2796-4CB3-A4F8-7FED73D68407}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{EE2986A9-F15D-48C2-B180-4AA95DC852DF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6650F618-0851-482A-ADED-846EA02B1F98}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3F1463B9-2D58-47F8-B7EB-DE2F5271A13A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ImagingModeSPIM</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{6D791B7F-C3EC-4D6E-B8D6-6C271C040A38}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{094F3E70-213B-49DC-A08C-C490909872E3}</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImagingModeSPIM.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM/ImagingModeSPIM.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM/ImagingModeSPIM.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmodeSPIM/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ImagingModeSPIM.lvclass/clownfish.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{14BFAAF8-678E-4FA0-B0B3-F638CDDBA3F5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DF70022-E63E-4564-9703-5F36CA60B264}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImagingModeSPIM.lvclass/Main.vi</Property>
@@ -1044,35 +1032,35 @@
 				<Property Name="TgtF_fileDescription" Type="Str">ImagingModeSPIM</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">ImagingModeSPIM</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">ImagingModeSPIM</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{BD8AE24A-5975-44B2-AE9B-5EA8EC304059}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A218BAA2-C8B6-4C44-B9FB-39E2D9F49F55}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImagingModeSPIM.exe</Property>
 			</Item>
 			<Item Name="stagesSPIM" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{505D7D4F-22A8-45C5-BFEC-F3C8A1E16911}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{3A1B9B21-54A1-400A-9D78-1D25B61BFE65}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{5EEEA836-E1EC-4715-BA79-9D687B380E7D}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C013A084-088C-40A1-BF2F-3FC36C00D49A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{140FA023-8A26-4A10-9C96-67B3582D363B}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{CBC70A17-ED9B-4055-9074-E7C354234F7B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">stagesSPIM</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B347DDC1-DFDB-4484-93E3-088D4EE8E788}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D4EDAE29-EB62-4D6E-9A6E-9686074C29F5}</Property>
 				<Property Name="Destination[0].destName" Type="Str">stagesSPIM.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM/stagesSPIM.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM/stagesSPIM.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/stagesSPIM/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/StageSPIM.lvclass/donkey-icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CC9CCE14-3080-413D-A0ED-245C25EA7747}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DF70022-E63E-4564-9703-5F36CA60B264}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/StageSPIM.lvclass/Main.vi</Property>
@@ -1083,16 +1071,17 @@
 				<Property Name="TgtF_fileDescription" Type="Str">stagesSPIM</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">stagesSPIM</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">stagesSPIM</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{A7C88BF1-A80C-434F-A03C-AAD2EC874356}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{17EDB981-9E1F-4C21-A520-85099894A739}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">stagesSPIM.exe</Property>
 			</Item>
 			<Item Name="Tomo" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F3D26BD4-7211-4EB0-AA7F-5EBBCAFEB19E}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{CB7C6383-41D0-448C-9737-8BAC94EB8528}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B5A8145D-AACA-40B2-B1A8-9F3BF6353BB6}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F9710A3E-BE76-4C4A-9D5B-AA78385B8158}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A021001C-523D-4BA4-828A-66905DF54F4F}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4AEB2FDA-0F7D-4FA8-B414-878C28C5F3AB}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Tomo</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1100,7 +1089,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/tomo</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{76F95CBB-1380-48CC-8CC6-890DCE5A4BB3}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FE724C93-1339-4EB8-9D88-48771B67D4F2}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Tomo.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/tomo/Tomo.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1110,7 +1099,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Tomo.lvclass/lion-icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A69D05E9-E82E-4F19-8A40-FCE8BC44F409}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DF70022-E63E-4564-9703-5F36CA60B264}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tomo.lvclass/Main.vi</Property>
@@ -1121,9 +1110,9 @@
 				<Property Name="TgtF_fileDescription" Type="Str">Tomo</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Tomo</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
 				<Property Name="TgtF_productName" Type="Str">Tomo</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{81136554-78A5-48C0-A2D0-064D07066D6F}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EDD68F74-0C1B-4AB0-A96B-0A418797D84F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tomo.exe</Property>
 			</Item>
 		</Item>
