@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Examples" Type="Folder" URL="/&lt;instrlib&gt;/uc480/Examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="AOTF.lvclass" Type="LVClass" URL="../AOTF_via_DAQ/AOTF/AOTF.lvclass"/>
 		<Item Name="BMC.lvclass" Type="LVClass" URL="../DeformableMirrorBMC/BMC/BMC.lvclass"/>
 		<Item Name="Cobolt.lvclass" Type="LVClass" URL="../Cobolt/Template/Cobolt.lvclass"/>
@@ -23,11 +26,18 @@
 		<Item Name="Tomo.lvclass" Type="LVClass" URL="../Tomo/Tomo/Tomo.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="AddToSequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/AddToSequence.vi"/>
+				<Item Name="ArrayToVision.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ArrayToVision.vi"/>
 				<Item Name="CaptureVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/CaptureVideo.vi"/>
+				<Item Name="ClearSequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/ClearSequence.vi"/>
+				<Item Name="Error_Report_en.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/errors/Error_Report_en.vi"/>
 				<Item Name="ExitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ExitCamera.vi"/>
 				<Item Name="FreeImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreeImageMem.vi"/>
 				<Item Name="FreezeVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreezeVideo.vi"/>
+				<Item Name="Get Camera Info.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/Get Camera Info.vi"/>
+				<Item Name="Get Sensor Info.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/Get Sensor Info.vi"/>
 				<Item Name="GetActImgMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetActImgMem.vi"/>
+				<Item Name="GetActSeqBuf.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/GetActSeqBuf.vi"/>
 				<Item Name="GetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetColorMode.vi"/>
 				<Item Name="GetExposureRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetExposureRange.vi"/>
 				<Item Name="GetFramesPerSecond.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetFramesPerSecond.vi"/>
@@ -46,14 +56,18 @@
 				<Item Name="SetAOIProcedure.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAOIProcedure.vi"/>
 				<Item Name="SetAutoParameter.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAutoParameter.vi"/>
 				<Item Name="SetBlCompensation.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetBlCompensation.vi"/>
+				<Item Name="SetColorCorrection.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetColorCorrection.vi"/>
 				<Item Name="SetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetColorMode.vi"/>
+				<Item Name="SetEdgeEnhancement.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetEdgeEnhancement.vi"/>
 				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetExposureTime.vi"/>
+				<Item Name="SetExternalTrigger.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Trigger/SetExternalTrigger.vi"/>
 				<Item Name="SetFrameRate.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetFrameRate.vi"/>
 				<Item Name="SetGamma.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetGamma.vi"/>
 				<Item Name="SetHardwareGain.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHardwareGain.vi"/>
 				<Item Name="SetHotPixelCorrection.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHotPixelCorrection.vi"/>
 				<Item Name="SetImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/SetImageMem.vi"/>
 				<Item Name="SetPixelClock.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetPixelClock.vi"/>
+				<Item Name="StateMachineV2012.ctl" Type="VI" URL="/&lt;instrlib&gt;/uc480/StateMachineV2012.ctl"/>
 				<Item Name="StopLiveVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/StopLiveVideo.vi"/>
 				<Item Name="z_StringGetThrough_.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/z_StringGetThrough_.vi"/>
 			</Item>
@@ -605,6 +619,11 @@
 				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
 				<Item Name="Digital to Binary.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Binary.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
+				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
+				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
+				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
+				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U8.vi"/>
 				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
@@ -655,6 +674,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Color.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -679,6 +699,7 @@
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
