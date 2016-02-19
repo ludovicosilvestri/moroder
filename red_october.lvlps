@@ -1,13 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "36,42,722,414"
-
-[AB_Cache_{ACB5C247-5F1E-42B5-B809-CBCB9D33F583}]
-Cache_Path[Path] Line0001 = "/C/Users/DELL/AppData/Local/Temp/AB_Cache_{ACB5C24"
-Cache_Path[Path] Line0002 = "7-5F1E-42B5-B809-CBCB9D33F583}.txt"
-
-[AB_Cache_{5164B221-ABEC-4168-9904-DAFA845AF3FB}]
-Cache_Path[Path] Line0001 = "/C/Users/DELL/AppData/Local/Temp/AB_Cache_{5164B22"
-Cache_Path[Path] Line0002 = "1-ABEC-4168-9904-DAFA845AF3FB}.txt"
+ProjectExplorer.ClassicPosition[String] = "419,42,1080,414"
 
 [AB_Cache_{BC071FDA-800E-49DF-BC1B-43F525F7CA46}]
 Cache_Path[Path] Line0001 = "/C/Users/DELL/AppData/Local/Temp/AB_Cache_{BC071FD"
@@ -16,4 +8,12 @@ Cache_Path[Path] Line0002 = "A-800E-49DF-BC1B-43F525F7CA46}.txt"
 [AB_Cache_{B5F8F6E6-591A-411B-8849-6AA37C36E0F1}]
 Cache_Path[Path] Line0001 = "/C/Users/DELL/AppData/Local/Temp/AB_Cache_{B5F8F6E"
 Cache_Path[Path] Line0002 = "6-591A-411B-8849-6AA37C36E0F1}.txt"
+
+[AB_Cache_{2A514D37-4A3A-4BEE-AC6F-1AE55497CC5F}]
+Cache_Path[Path] Line0001 = "/C/Users/DELL/AppData/Local/Temp/AB_Cache_{2A514D3"
+Cache_Path[Path] Line0002 = "7-4A3A-4BEE-AC6F-1AE55497CC5F}.txt"
+
+[AB_Cache_{2D31652F-B179-444F-B85E-3676F4D72414}]
+Cache_Path[Path] Line0001 = "/C/Users/DELL/AppData/Local/Temp/AB_Cache_{2D31652"
+Cache_Path[Path] Line0002 = "F-B179-444F-B85E-3676F4D72414}.txt"
 
