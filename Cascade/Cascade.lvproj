@@ -11,50 +11,27 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ExamplesXX_3_0_10_0" Type="Folder" URL="/C/Users/Public/Documents/SIToolkit/LabVIEW/ExamplesXX_3_0_10_0">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Cascade.lvclass" Type="LVClass" URL="../Cascade/Cascade.lvclass"/>
 		<Item Name="test.vi" Type="VI" URL="../Cascade/test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
-				<Item Name="AdvDispUpdateDisplay.vi" Type="VI" URL="/&lt;userlib&gt;/R3AdvDisp.llb/AdvDispUpdateDisplay.vi"/>
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="CalibGetCalibArray.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCalib.llb/CalibGetCalibArray.vi"/>
-				<Item Name="CalibGetXCalibArray.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCalib.llb/CalibGetXCalibArray.vi"/>
-				<Item Name="CalibManualLoad.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCalib.llb/CalibManualLoad.vi"/>
-				<Item Name="CalibOpenNoHW.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCalib.llb/CalibOpenNoHW.vi"/>
-				<Item Name="CalibPutXCalibToData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCalib.llb/CalibPutXCalibToData.vi"/>
-				<Item Name="CameraADC.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADC.vi"/>
-				<Item Name="CameraADCget.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADCget.vi"/>
-				<Item Name="CameraADCset.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADCset.vi"/>
 				<Item Name="CameraCheckData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraCheckData.vi"/>
 				<Item Name="CameraCleans.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraCleans.vi"/>
 				<Item Name="CameraClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraClose.vi"/>
 				<Item Name="CameraExperiment.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraExperiment.vi"/>
 				<Item Name="CameraGetData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetData.vi"/>
 				<Item Name="CameraGetDataDim.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetDataDim.vi"/>
-				<Item Name="CameraGetIDinfo.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetIDinfo.vi"/>
-				<Item Name="CameraGetInOutDevice.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetInOutDevice.vi"/>
-				<Item Name="CameraGetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetTemp.vi"/>
 				<Item Name="CameraInitialize.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraInitialize.vi"/>
 				<Item Name="CameraIntensMode.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraIntensMode.vi"/>
-				<Item Name="CameraOnlineBackSubSetup.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOnlineBackSubSetup.vi"/>
-				<Item Name="CameraOnlineFlatfieldSetup.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOnlineFlatfieldSetup.vi"/>
-				<Item Name="CameraOnlineGeo.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOnlineGeo.vi"/>
 				<Item Name="CameraOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOpen.vi"/>
-				<Item Name="CameraOutputDevice.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOutputDevice.vi"/>
-				<Item Name="CameraROI.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraROI.vi"/>
-				<Item Name="CameraSetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetTemp.vi"/>
-				<Item Name="CameraSetVar.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetVar.vi"/>
 				<Item Name="CameraShutter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraShutter.vi"/>
 				<Item Name="CameraSkips.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSkips.vi"/>
-				<Item Name="CameraSpecificVer.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSpecificVer.vi"/>
 				<Item Name="CameraStart.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStart.vi"/>
 				<Item Name="CameraStop.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStop.vi"/>
 				<Item Name="CameraTrigger.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraTrigger.vi"/>
@@ -122,9 +99,6 @@
 				<Item Name="Delete Elements from 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U64)__ogtk.vi"/>
 				<Item Name="Delete Elements from 2D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Variant)__ogtk.vi"/>
 				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
-				<Item Name="DisplayClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayClose.vi"/>
-				<Item Name="DisplayImage.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayImage.vi"/>
-				<Item Name="DisplayOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayOpen.vi"/>
 				<Item Name="Empty 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Empty 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Empty 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (CSG)__ogtk.vi"/>
@@ -166,11 +140,8 @@
 				<Item Name="Empty Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array (Variant)__ogtk.vi"/>
 				<Item Name="Empty Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array__ogtk.vi"/>
 				<Item Name="FileClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileClose.vi"/>
-				<Item Name="FileGetDataDim.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileGetDataDim.vi"/>
 				<Item Name="FileOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileOpen.vi"/>
-				<Item Name="FileReadData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileReadData.vi"/>
 				<Item Name="FileSaveData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileSaveData.vi"/>
-				<Item Name="FileSetVar.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileSetVar.vi"/>
 				<Item Name="Filter 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (CSG)__ogtk.vi"/>
@@ -210,15 +181,6 @@
 				<Item Name="Filter 1D Array with Scalar (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U64)__ogtk.vi"/>
 				<Item Name="Filter 1D Array with Scalar (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Variant)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
-				<Item Name="FilterWheelClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelClose.vi"/>
-				<Item Name="FilterWheelGetFilter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelGetFilter.vi"/>
-				<Item Name="FilterWheelGetGeneralInfo.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelGetGeneralInfo.vi"/>
-				<Item Name="FilterWheelGetNumFilters.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelGetNumFilters.vi"/>
-				<Item Name="FilterWheelGetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelGetStatus.vi"/>
-				<Item Name="FilterWheelInSystem.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelInSystem.vi"/>
-				<Item Name="FilterWheelOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelOpen.vi"/>
-				<Item Name="FilterWheelReset.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelReset.vi"/>
-				<Item Name="FilterWheelSetFilter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFilterWheel.llb/FilterWheelSetFilter.vi"/>
 				<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element Default Data__ogtk.vi"/>
 				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
 				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
@@ -236,32 +198,10 @@
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-				<Item Name="GetDeviceIDs.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/GetDeviceIDs.vi"/>
-				<Item Name="ImageBayerToRGB.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageBayerToRGB.vi"/>
 				<Item Name="ImageCreate.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageCreate.vi"/>
 				<Item Name="ImageDestroy.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageDestroy.vi"/>
-				<Item Name="ImageFillData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageFillData.vi"/>
-				<Item Name="ImageGetArrayF32.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayF32.vi"/>
-				<Item Name="ImageGetArrayI32.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayI32.vi"/>
 				<Item Name="ImageGetArrayU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayU16.vi"/>
-				<Item Name="ImageGetColF32.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetColF32.vi"/>
-				<Item Name="ImageGetColI32.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetColI32.vi"/>
-				<Item Name="ImageGetColU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetColU16.vi"/>
 				<Item Name="ImageGetDimension.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetDimension.vi"/>
-				<Item Name="ImageGetLineF32.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetLineF32.vi"/>
-				<Item Name="ImageGetLineI32.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetLineI32.vi"/>
-				<Item Name="ImageGetLineU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetLineU16.vi"/>
-				<Item Name="ImageGetPixel.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetPixel.vi"/>
-				<Item Name="ImageGetRGBGain.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetRGBGain.vi"/>
-				<Item Name="ImageGetRGBOffset.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetRGBOffset.vi"/>
-				<Item Name="ImagePutF32Array.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImagePutF32Array.vi"/>
-				<Item Name="ImagePutF32Line.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImagePutF32Line.vi"/>
-				<Item Name="ImagePutI32Array.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImagePutI32Array.vi"/>
-				<Item Name="ImagePutI32Line.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImagePutI32Line.vi"/>
-				<Item Name="ImagePutU16Array.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImagePutU16Array.vi"/>
-				<Item Name="ImagePutU16Line.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImagePutU16Line.vi"/>
-				<Item Name="ImageSetRGBGain.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageSetRGBGain.vi"/>
-				<Item Name="ImageSetRGBOffset.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageSetRGBOffset.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CSG)__ogtk.vi"/>
@@ -304,16 +244,6 @@
 				<Item Name="InitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/InitToolkit.vi"/>
 				<Item Name="MergeErrorOut.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/MergeErrorOut.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-				<Item Name="Physical Units__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Physical Units__ogtk.ctl"/>
-				<Item Name="PulserClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserClose.vi"/>
-				<Item Name="PulserExternalTrigger.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserExternalTrigger.vi"/>
-				<Item Name="PulserGateWidthDelay.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserGateWidthDelay.vi"/>
-				<Item Name="PulserInit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserInit.vi"/>
-				<Item Name="PulserInternalTrigger.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserInternalTrigger.vi"/>
-				<Item Name="PulserOnChipAccum.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserOnChipAccum.vi"/>
-				<Item Name="PulserOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserOpen.vi"/>
-				<Item Name="PulserStart.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserStart.vi"/>
-				<Item Name="PulserStop.vi" Type="VI" URL="/&lt;userlib&gt;/SITKPulsers.llb/PulserStop.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
@@ -399,7 +329,6 @@
 				<Item Name="Search Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search Array__ogtk.vi"/>
 				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
-				<Item Name="SIMathOpData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKMath.llb/SIMathOpData.vi"/>
 				<Item Name="Sort 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CSG)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CXT)__ogtk.vi"/>
@@ -433,48 +362,13 @@
 				<Item Name="Sort 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U32)__ogtk.vi"/>
 				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
-				<Item Name="SPDClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDClose.vi"/>
-				<Item Name="SPDExpos.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDExpos.vi"/>
-				<Item Name="SPDGetDetType.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDGetDetType.vi"/>
-				<Item Name="SPDGetExpos.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDGetExpos.vi"/>
-				<Item Name="SPDGetGain.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDGetGain.vi"/>
-				<Item Name="SPDGetHV.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDGetHV.vi"/>
-				<Item Name="SPDGetNumAvgReads.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDGetNumAvgReads.vi"/>
-				<Item Name="SPDNumAvgRead.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDNumAvgRead.vi"/>
-				<Item Name="SPDOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDOpen.vi"/>
-				<Item Name="SPDRead.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDRead.vi"/>
-				<Item Name="SPDReadAll.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDReadAll.vi"/>
-				<Item Name="SPDSetDetType.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDSetDetType.vi"/>
-				<Item Name="SPDSetGain.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDSetGain.vi"/>
-				<Item Name="SPDSetHV.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSPD.llb/SPDSetHV.vi"/>
-				<Item Name="SpectCheckScanDone.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectCheckScanDone.vi"/>
-				<Item Name="SpectClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectClose.vi"/>
-				<Item Name="SpectGetFilter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetFilter.vi"/>
-				<Item Name="SpectGetGratingInfo.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetGratingInfo.vi"/>
-				<Item Name="SpectGetGratingType.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetGratingType.vi"/>
-				<Item Name="SpectGetMirrorInfo.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetMirrorInfo.vi"/>
-				<Item Name="SpectGetNumFilters.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetNumFilters.vi"/>
-				<Item Name="SpectGetNumFilterWheels.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetNumFilterWheels.vi"/>
-				<Item Name="SpectGetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetShutter.vi"/>
-				<Item Name="SpectGetSlitInfo.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetSlitInfo.vi"/>
-				<Item Name="SpectGetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectGetStatus.vi"/>
-				<Item Name="SpectOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectOpen.vi"/>
-				<Item Name="SpectResetFilterWheel.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectResetFilterWheel.vi"/>
-				<Item Name="SpectRetrieve.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectRetrieve.vi"/>
-				<Item Name="SpectScanToWavelength.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectScanToWavelength.vi"/>
-				<Item Name="SpectSetFilter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetFilter.vi"/>
-				<Item Name="SpectSetGrating.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetGrating.vi"/>
-				<Item Name="SpectSetGratingSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetGratingSpeed.vi"/>
-				<Item Name="SpectSetMirror.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetMirror.vi"/>
-				<Item Name="SpectSetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetShutter.vi"/>
-				<Item Name="SpectSetSlit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetSlit.vi"/>
-				<Item Name="SpectSetup.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetup.vi"/>
-				<Item Name="SpectSetWavelength.vi" Type="VI" URL="/&lt;userlib&gt;/SITKSpect.llb/SpectSetWavelength.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
-				<Item Name="ToolKitIsError.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/ToolKitIsError.vi"/>
-				<Item Name="ToolKitVersions.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/ToolKitVersions.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
@@ -493,6 +387,7 @@
 				<Item Name="03EE2D0991E864B14FDA7E7EF60E813D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/03EE2D0991E864B14FDA7E7EF60E813D"/>
 				<Item Name="3F3489241057A4BBFF01DE53A3C0D3F7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/3F3489241057A4BBFF01DE53A3C0D3F7"/>
 				<Item Name="4DF6FE8CF8D539A78B263026FEAB4FEF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4DF6FE8CF8D539A78B263026FEAB4FEF"/>
+				<Item Name="6C5834A0F1007A9724C5A9CC5C79F763" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6C5834A0F1007A9724C5A9CC5C79F763"/>
 				<Item Name="7B81288A8966C1DE6925B383767A55D9" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7B81288A8966C1DE6925B383767A55D9"/>
 				<Item Name="7F913CA0B7E90B138B4AC7553D420DE2" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7F913CA0B7E90B138B4AC7553D420DE2"/>
 				<Item Name="7F6530AD367840F80E7372CAA9347987" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7F6530AD367840F80E7372CAA9347987"/>
@@ -548,9 +443,60 @@
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
+				<Item Name="DAQmx Write (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog 2D I32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D I32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Frequency NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Time NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter 1DTicks NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1DTicks NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter Frequency 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Frequency 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Ticks 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Time 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U8 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U8 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U8 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U8 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U16 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U16 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U16 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U16 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U32 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U32 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D Bool NChan 1Samp NLine).vi"/>
+				<Item Name="DAQmx Write (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U8 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital Bool 1Line 1Point).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Bool 1Line 1Point).vi"/>
+				<Item Name="DAQmx Write (Digital U8 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U8 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U16 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U32 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I8).vi"/>
+				<Item Name="DAQmx Write (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I16).vi"/>
+				<Item Name="DAQmx Write (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I32).vi"/>
+				<Item Name="DAQmx Write (Raw 1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U8).vi"/>
+				<Item Name="DAQmx Write (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U16).vi"/>
+				<Item Name="DAQmx Write (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U32).vi"/>
+				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
 				<Item Name="DDA66B1A243225F8C7DEC80211BCE84D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/DDA66B1A243225F8C7DEC80211BCE84D"/>
 				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
@@ -560,13 +506,16 @@
 				<Item Name="DTbl Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U8.vi"/>
 				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
 				<Item Name="DTbl Digital to Binary U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U32.vi"/>
+				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
 				<Item Name="DWDT Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U8.vi"/>
 				<Item Name="DWDT Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U16.vi"/>
 				<Item Name="DWDT Digital to Binary U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U32.vi"/>
+				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Easy Generate XML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Easy Generate XML__JKI EasyXML.vi"/>
 				<Item Name="Easy Parse XML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Easy Parse XML__JKI EasyXML.vi"/>
 				<Item Name="Easy Read XML File__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Easy Read XML File__JKI EasyXML.vi"/>
+				<Item Name="Easy Write XML File__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Easy Write XML File__JKI EasyXML.vi"/>
 				<Item Name="ECA9CC02894B530281D86D99DC2579A5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/ECA9CC02894B530281D86D99DC2579A5"/>
 				<Item Name="EEB441227DF158CCB9458F50EDDAFEB8" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/EEB441227DF158CCB9458F50EDDAFEB8"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -591,6 +540,7 @@
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -598,13 +548,17 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
@@ -618,14 +572,14 @@
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
+				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
+				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
+				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Queue/Queue.lvclass"/>
 				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
@@ -681,6 +635,15 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
