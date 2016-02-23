@@ -14,6 +14,7 @@
 		<Item Name="caterpillar.ico" Type="Document" URL="../TomoConversion/caterpillar.ico"/>
 		<Item Name="DAQOrcaFlash.lvclass" Type="LVClass" URL="../DAQOrcaFlash/DAQOrcaFlash/DAQOrcaFlash.lvclass"/>
 		<Item Name="email sender.vi" Type="VI" URL="../email sender.vi"/>
+		<Item Name="TomoConversion.ini" Type="Document" URL="../TomoConversion/TomoConversion.ini"/>
 		<Item Name="TomoConversion.lvclass" Type="LVClass" URL="../TomoConversion/TomoConversion/TomoConversion.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -717,31 +718,45 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{B673E40E-3CD9-4D4A-A407-794B41228FF5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B1827FCE-04F7-4BFA-B1B9-43885FAA54C3}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/TomoConversion.ini</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{2A514D37-4A3A-4BEE-AC6F-1AE55497CC5F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TomoConversion</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TomoConversion</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Users/DELL/Documents/Distrio/executables/TomoConversion</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D31652F-B179-444F-B85E-3676F4D72414}</Property>
 				<Property Name="Destination[0].destName" Type="Str">TomoConversion.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TomoConversion/TomoConversion.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Users/DELL/Documents/Distrio/executables/TomoConversion/TomoConversion.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TomoConversion/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Users/DELL/Documents/Distrio/executables/TomoConversion/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/caterpillar.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E45A7091-8958-4788-BE2F-5B3209E7237F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{33D580B6-8E1E-4C05-B7A9-8E12DAB761BA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TomoConversion.lvclass/Main.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TomoConversion.lvclass/action methods/Proceed.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TomoConversion.lvclass/tools/Convert cxd file.vi</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TomoConversion</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
