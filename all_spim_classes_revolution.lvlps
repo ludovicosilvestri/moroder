@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "113,901,1142,1445"
+ProjectExplorer.ClassicPosition[String] = "49,184,1078,728"
 
 [AB_Cache_{1DE1D89E-2627-4FEB-9BC0-DB70C9005FAA}]
 Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
@@ -9,14 +9,6 @@ Cache_Path[Path] Line0002 = "che_{1DE1D89E-2627-4FEB-9BC0-DB70C9005FAA}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
 Cache_Path[Path] Line0002 = "che_{83DD6770-FEED-4646-B621-17AEC951F70F}.txt"
 
-[AB_Cache_{3F1463B9-2D58-47F8-B7EB-DE2F5271A13A}]
-Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
-Cache_Path[Path] Line0002 = "che_{3F1463B9-2D58-47F8-B7EB-DE2F5271A13A}.txt"
-
-[AB_Cache_{094F3E70-213B-49DC-A08C-C490909872E3}]
-Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
-Cache_Path[Path] Line0002 = "che_{094F3E70-213B-49DC-A08C-C490909872E3}.txt"
-
 [AB_Cache_{86FF8E04-79D2-4BCD-95B4-464C8092ED78}]
 Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
 Cache_Path[Path] Line0002 = "che_{86FF8E04-79D2-4BCD-95B4-464C8092ED78}.txt"
@@ -24,14 +16,6 @@ Cache_Path[Path] Line0002 = "che_{86FF8E04-79D2-4BCD-95B4-464C8092ED78}.txt"
 [AB_Cache_{714940D0-98AC-4F75-9ABF-E80FEB850138}]
 Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
 Cache_Path[Path] Line0002 = "che_{714940D0-98AC-4F75-9ABF-E80FEB850138}.txt"
-
-[AB_Cache_{4AEB2FDA-0F7D-4FA8-B414-878C28C5F3AB}]
-Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
-Cache_Path[Path] Line0002 = "che_{4AEB2FDA-0F7D-4FA8-B414-878C28C5F3AB}.txt"
-
-[AB_Cache_{FE724C93-1339-4EB8-9D88-48771B67D4F2}]
-Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
-Cache_Path[Path] Line0002 = "che_{FE724C93-1339-4EB8-9D88-48771B67D4F2}.txt"
 
 [AB_Cache_{CBC70A17-ED9B-4055-9074-E7C354234F7B}]
 Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
@@ -48,4 +32,20 @@ Cache_Path[Path] Line0002 = "che_{535F9D8A-DD9C-4BC1-B957-B52AD9472E0D}.txt"
 [AB_Cache_{38C5F337-C180-4F45-9D81-21CFA1A399A1}]
 Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
 Cache_Path[Path] Line0002 = "che_{38C5F337-C180-4F45-9D81-21CFA1A399A1}.txt"
+
+[AB_Cache_{3F1463B9-2D58-47F8-B7EB-DE2F5271A13A}]
+Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
+Cache_Path[Path] Line0002 = "che_{3F1463B9-2D58-47F8-B7EB-DE2F5271A13A}.txt"
+
+[AB_Cache_{094F3E70-213B-49DC-A08C-C490909872E3}]
+Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
+Cache_Path[Path] Line0002 = "che_{094F3E70-213B-49DC-A08C-C490909872E3}.txt"
+
+[AB_Cache_{4AEB2FDA-0F7D-4FA8-B414-878C28C5F3AB}]
+Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
+Cache_Path[Path] Line0002 = "che_{4AEB2FDA-0F7D-4FA8-B414-878C28C5F3AB}.txt"
+
+[AB_Cache_{FE724C93-1339-4EB8-9D88-48771B67D4F2}]
+Cache_Path[Path] Line0001 = "/C/Users/Giovanni Giorgio/AppData/Local/Temp/AB_Ca"
+Cache_Path[Path] Line0002 = "che_{FE724C93-1339-4EB8-9D88-48771B67D4F2}.txt"
 
