@@ -630,7 +630,6 @@
 			<Item Name="CloseTIFF.vi" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/CloseTIFF.vi"/>
 			<Item Name="Create random string.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Create random string.vi"/>
 			<Item Name="create_random_string.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
-			<Item Name="DCIMG_LabVIEW.dll" Type="Document" URL="../dependencies/DCIMG_LabVIEW/DCIMG_LabVIEW/Release/DCIMG_LabVIEW.dll"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
