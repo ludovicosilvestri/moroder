@@ -21,12 +21,14 @@
 		<Item Name="Generate skewed triangular waveform.vi" Type="VI" URL="../dependencies/utilities/Generate skewed triangular waveform.vi"/>
 		<Item Name="ImageStack.lvclass" Type="LVClass" URL="../ImageStack/ImageStack/ImageStack.lvclass"/>
 		<Item Name="ImagingModeSPIM.lvclass" Type="LVClass" URL="../ImagingModeSPIM/ImagingModeSPIM/ImagingModeSPIM.lvclass"/>
+		<Item Name="LineCCD.lvclass" Type="LVClass" URL="../LineCCD/LineCCD/LineCCD.lvclass"/>
 		<Item Name="StageSPIM.lvclass" Type="LVClass" URL="../StageSPIM/StageSPIM/StageSPIM.lvclass"/>
 		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam/Thorcam.lvclass"/>
 		<Item Name="Tomo.lvclass" Type="LVClass" URL="../Tomo/Tomo/Tomo.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="AddToSequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/AddToSequence.vi"/>
+				<Item Name="ALPHALAS CCD S Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/ALPHALAS CCD S Series.lvlib"/>
 				<Item Name="ArrayToVision.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ArrayToVision.vi"/>
 				<Item Name="CaptureVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/CaptureVideo.vi"/>
 				<Item Name="ClearSequence.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Sequence/ClearSequence.vi"/>
@@ -469,6 +471,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
@@ -674,7 +677,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Color.llb/IMAQ ArrayToColorImage"/>
+				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -707,6 +710,7 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
 				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
@@ -821,6 +825,9 @@
 			<Item Name="FPL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FPL.vi"/>
 			<Item Name="FRF.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FRF.vi"/>
 			<Item Name="FRF?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FRF?.vi"/>
+			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="GCSTranslateError.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/GCSTranslateError.vi"/>
 			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
 			<Item Name="GCSTranslator.dll" Type="Document" URL="../StageSPIM/PI drivers/Low Level/GCSTranslator.dll"/>
