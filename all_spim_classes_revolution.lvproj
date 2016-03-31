@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="varPersistentID:{B7F55CE6-AAA5-48FA-92D0-9EFED362E4C7}" Type="Ref">/My Computer/Alphalas_Examples/Data Dashboard for LabVIEW/ALPHALAS CCD S Series Shared Variables.lvlib/CCD Data</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -11,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Alphalas_Examples" Type="Folder" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Alphalas_Examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Examples" Type="Folder" URL="/&lt;instrlib&gt;/uc480/Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -421,6 +425,7 @@
 				<Item Name="1AE64589D058A11F09E90AAF8E12AFE5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/1AE64589D058A11F09E90AAF8E12AFE5"/>
 				<Item Name="1CF8A5C695545EDC7FE5DB2BE655BFE4" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/1CF8A5C695545EDC7FE5DB2BE655BFE4"/>
 				<Item Name="03EE2D0991E864B14FDA7E7EF60E813D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/03EE2D0991E864B14FDA7E7EF60E813D"/>
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="3F3489241057A4BBFF01DE53A3C0D3F7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/3F3489241057A4BBFF01DE53A3C0D3F7"/>
 				<Item Name="4DF6FE8CF8D539A78B263026FEAB4FEF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4DF6FE8CF8D539A78B263026FEAB4FEF"/>
 				<Item Name="6C5834A0F1007A9724C5A9CC5C79F763" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6C5834A0F1007A9724C5A9CC5C79F763"/>
@@ -704,6 +709,7 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
+				<Item Name="NI_3dgraph.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/NI_3dgraph.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -802,7 +808,6 @@
 			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
 			<Item Name="Available DLLs.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLLs.ctl"/>
 			<Item Name="Available interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available interfaces.ctl"/>
-			<Item Name="BinarizationRegistration.vi" Type="VI" URL="../dependencies/ImageReg/BinarizationRegistration.vi"/>
 			<Item Name="Build command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build command substring.vi"/>
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
@@ -841,7 +846,6 @@
 			<Item Name="Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
 			<Item Name="HLT.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/HLT.vi"/>
-			<Item Name="ImageReg.dll" Type="Document" URL="../dependencies/ImageReg/C++/bin/Release/ImageReg.dll"/>
 			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
 			<Item Name="Initialize Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
 			<Item Name="Initialize Global2.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
@@ -849,7 +853,6 @@
 			<Item Name="LIM?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/LIM?.vi"/>
 			<Item Name="LUT cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/LUT cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MattesImageRegistration.vi" Type="VI" URL="../dependencies/ImageReg/MattesImageRegistration.vi"/>
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/MaxPower cluster.ctl"/>
 			<Item Name="Mercury_GCS_Configuration_Setup.vi" Type="VI" URL="../StageSPIM/PI drivers/Mercury_GCS_Configuration_Setup.vi"/>
 			<Item Name="MOV.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
