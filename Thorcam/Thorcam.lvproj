@@ -12,16 +12,45 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AVI" Type="Folder"/>
-		<Item Name="uc480" Type="Folder" URL="/&lt;instrlib&gt;/uc480">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="uc480" Type="Folder"/>
 		<Item Name="BinarizationRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/BinarizationRegistration.vi"/>
 		<Item Name="MattesImageRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/MattesImageRegistration.vi"/>
 		<Item Name="RegTester.vi" Type="VI" URL="../../dependencies/ImageReg/RegTester.vi"/>
 		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="ArrayToVision.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/GetSingleImage Ordner/ArrayToVision.vi"/>
+				<Item Name="CaptureVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/CaptureVideo.vi"/>
+				<Item Name="ExitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ExitCamera.vi"/>
+				<Item Name="FreezeVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/FreezeVideo.vi"/>
+				<Item Name="GetActImgMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetActImgMem.vi"/>
+				<Item Name="GetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetColorMode.vi"/>
+				<Item Name="GetExposureRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetExposureRange.vi"/>
+				<Item Name="GetFramesPerSecond.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetFramesPerSecond.vi"/>
+				<Item Name="GetFrameTimeRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetFrameTimeRange.vi"/>
+				<Item Name="GetImageSize.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetImageSize.vi"/>
+				<Item Name="GetNumberOfCameras.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetNumberOfCameras.vi"/>
+				<Item Name="GetPixelClockRange.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/GetPixelClockRange.vi"/>
+				<Item Name="HasVideoStarted.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/HasVideoStarted.vi"/>
+				<Item Name="InitCamera.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/InitCamera.vi"/>
+				<Item Name="IsVideoFinish.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Information/IsVideoFinish.vi"/>
+				<Item Name="LoadParameters.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/LoadParameters.vi"/>
+				<Item Name="ResetToDefault.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/ResetToDefault.vi"/>
+				<Item Name="SaveParameters.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SaveParameters.vi"/>
+				<Item Name="SetAllocatedImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/SetAllocatedImageMem.vi"/>
+				<Item Name="SetAOI.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAOI.vi"/>
+				<Item Name="SetAOIProcedure.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAOIProcedure.vi"/>
+				<Item Name="SetAutoParameter.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetAutoParameter.vi"/>
+				<Item Name="SetBlCompensation.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetBlCompensation.vi"/>
+				<Item Name="SetColorMode.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetColorMode.vi"/>
+				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetExposureTime.vi"/>
+				<Item Name="SetFrameRate.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetFrameRate.vi"/>
+				<Item Name="SetGamma.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetGamma.vi"/>
+				<Item Name="SetHardwareGain.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHardwareGain.vi"/>
+				<Item Name="SetHotPixelCorrection.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetHotPixelCorrection.vi"/>
+				<Item Name="SetImageMem.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/SetImageMem.vi"/>
+				<Item Name="SetPixelClock.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/Settings/SetPixelClock.vi"/>
+				<Item Name="StopLiveVideo.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/StopLiveVideo.vi"/>
+				<Item Name="z_StringGetThrough_.vi" Type="VI" URL="/&lt;instrlib&gt;/uc480/z_StringGetThrough_.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -383,7 +412,6 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
-				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -468,7 +496,6 @@
 				<Item Name="DAQmx Create Channel (AO-FuncGen).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AO-FuncGen).vi"/>
 				<Item Name="DAQmx Create Channel (AO-Voltage-Basic).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AO-Voltage-Basic).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Count Edges).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Count Edges).vi"/>
-				<Item Name="DAQmx Create Channel (CI-Duty Cycle).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Duty Cycle).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Frequency).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Frequency).vi"/>
 				<Item Name="DAQmx Create Channel (CI-GPS Timestamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-GPS Timestamp).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Period).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Period).vi"/>
@@ -570,11 +597,6 @@
 				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
 				<Item Name="Digital to Binary.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Binary.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
-				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
-				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
-				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
-				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U8.vi"/>
 				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
@@ -623,16 +645,35 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Color.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="IMAQ AutoBThreshold 2" Type="VI" URL="/&lt;vilib&gt;/vision/Process.llb/IMAQ AutoBThreshold 2"/>
+				<Item Name="IMAQ Cast Image" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Cast Image"/>
 				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
+				<Item Name="IMAQ Convolute" Type="VI" URL="/&lt;vilib&gt;/vision/Filters.llb/IMAQ Convolute"/>
+				<Item Name="IMAQ Correlate" Type="VI" URL="/&lt;vilib&gt;/vision/Filters.llb/IMAQ Correlate"/>
+				<Item Name="IMAQ Count Objects 2" Type="VI" URL="/&lt;vilib&gt;/vision/Blob.llb/IMAQ Count Objects 2"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Equalize" Type="VI" URL="/&lt;vilib&gt;/vision/Process.llb/IMAQ Equalize"/>
+				<Item Name="IMAQ Extract 2" Type="VI" URL="/&lt;vilib&gt;/vision/Image Manipulation.llb/IMAQ Extract 2"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="IMAQ Histogram" Type="VI" URL="/&lt;vilib&gt;/vision/Analysis.llb/IMAQ Histogram"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ImageBorderSize" Type="VI" URL="/&lt;vilib&gt;/vision/Extlibsp.llb/IMAQ ImageBorderSize"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
+				<Item Name="IMAQ LinearAverages" Type="VI" URL="/&lt;vilib&gt;/vision/Analysis.llb/IMAQ LinearAverages"/>
+				<Item Name="IMAQ Multiply" Type="VI" URL="/&lt;vilib&gt;/vision/Operator.llb/IMAQ Multiply"/>
+				<Item Name="IMAQ MultiThreshold" Type="VI" URL="/&lt;vilib&gt;/vision/Process.llb/IMAQ MultiThreshold"/>
+				<Item Name="IMAQ NthOrder" Type="VI" URL="/&lt;vilib&gt;/vision/Filters.llb/IMAQ NthOrder"/>
+				<Item Name="IMAQ Particle Analysis Report" Type="VI" URL="/&lt;vilib&gt;/vision/Analysis.llb/IMAQ Particle Analysis Report"/>
+				<Item Name="IMAQ Quantify 2" Type="VI" URL="/&lt;vilib&gt;/vision/Analysis.llb/IMAQ Quantify 2"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="IMAQ ReplaceColorPlane" Type="VI" URL="/&lt;vilib&gt;/vision/Color.llb/IMAQ ReplaceColorPlane"/>
+				<Item Name="IMAQ Resample" Type="VI" URL="/&lt;vilib&gt;/vision/Image Manipulation.llb/IMAQ Resample"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQ Shift" Type="VI" URL="/&lt;vilib&gt;/vision/Image Manipulation.llb/IMAQ Shift"/>
+				<Item Name="IMAQ Subtract" Type="VI" URL="/&lt;vilib&gt;/vision/Operator.llb/IMAQ Subtract"/>
+				<Item Name="IMAQ Threshold" Type="VI" URL="/&lt;vilib&gt;/vision/Process.llb/IMAQ Threshold"/>
 				<Item Name="IMAQ WindClose" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindClose"/>
 				<Item Name="IMAQ WindDraw" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindDraw"/>
 				<Item Name="IMAQ WindZoom 2" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindZoom 2"/>
@@ -648,7 +689,6 @@
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
@@ -659,7 +699,6 @@
 				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
 				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
 				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
-				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
@@ -671,7 +710,6 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Queue/Queue.lvclass"/>
-				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -726,10 +764,12 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="BlurredRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/BlurredRegistration.vi"/>
+			<Item Name="Calculate Point Cloud Distance.vi" Type="VI" URL="../../dependencies/ImageReg/Calculate Point Cloud Distance.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
+			<Item Name="Generate Gaussian Kernel.vi" Type="VI" URL="../../dependencies/ImageReg/Generate Gaussian Kernel.vi"/>
 			<Item Name="ImageReg.dll" Type="Document" URL="../../dependencies/ImageReg/C++/bin/Release/ImageReg.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -744,16 +784,10 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ObjectRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/ObjectRegistration.vi"/>
+			<Item Name="RabbitMQ.Client.dll" Type="Document" URL="../../../DATA/Programming/In Progress/DAQCascade512II/Reqirement/RabbitMQ.Client.dll"/>
+			<Item Name="Registration method.ctl" Type="VI" URL="../../dependencies/ImageReg/Registration method.ctl"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="uc480.dll" Type="Document" URL="uc480.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="uc480_LabVIEW.dll" Type="Document" URL="uc480_LabVIEW.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="uc480_tools.dll" Type="Document" URL="uc480_tools.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

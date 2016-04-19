@@ -18,7 +18,7 @@
 				<Item Name="ALPHALAS CCD S Series Dashboard.lvdd" Type="Document" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Examples/Data Dashboard for LabVIEW/ALPHALAS CCD S Series Dashboard.lvdd"/>
 				<Item Name="ALPHALAS CCD S Series Data Dashboard for LabVIEW Instructions.docx" Type="Document" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Examples/Data Dashboard for LabVIEW/ALPHALAS CCD S Series Data Dashboard for LabVIEW Instructions.docx"/>
 				<Item Name="ALPHALAS CCD S Series Data Dashboard for LabVIEW Instructions.pdf" Type="Document" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Examples/Data Dashboard for LabVIEW/ALPHALAS CCD S Series Data Dashboard for LabVIEW Instructions.pdf"/>
-				<Item Name="ALPHALAS CCD S Series Shared Variables.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Examples/Data Dashboard for LabVIEW/ALPHALAS CCD S Series Shared Variables.lvlib"/>
+				<Item Name="ALPHALAS CCD S Series Shared Variables.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Alphalas_Examples/Data Dashboard for LabVIEW/ALPHALAS CCD S Series Shared Variables.lvlib"/>
 			</Item>
 			<Item Name="ALPHALAS CCD S Series Acquisition Loop Example.vi" Type="VI" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Examples/ALPHALAS CCD S Series Acquisition Loop Example.vi"/>
 			<Item Name="ALPHALAS CCD S Series Acquisition Loop with ActiveX 3D Graph Example.vi" Type="VI" URL="/&lt;instrlib&gt;/ALPHALAS CCD S Series/Examples/ALPHALAS CCD S Series Acquisition Loop with ActiveX 3D Graph Example.vi"/>
@@ -423,7 +423,6 @@
 				<Item Name="1AE64589D058A11F09E90AAF8E12AFE5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/1AE64589D058A11F09E90AAF8E12AFE5"/>
 				<Item Name="1CF8A5C695545EDC7FE5DB2BE655BFE4" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/1CF8A5C695545EDC7FE5DB2BE655BFE4"/>
 				<Item Name="03EE2D0991E864B14FDA7E7EF60E813D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/03EE2D0991E864B14FDA7E7EF60E813D"/>
-				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="3F3489241057A4BBFF01DE53A3C0D3F7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/3F3489241057A4BBFF01DE53A3C0D3F7"/>
 				<Item Name="4DF6FE8CF8D539A78B263026FEAB4FEF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4DF6FE8CF8D539A78B263026FEAB4FEF"/>
 				<Item Name="6C5834A0F1007A9724C5A9CC5C79F763" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6C5834A0F1007A9724C5A9CC5C79F763"/>
@@ -436,7 +435,7 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
-				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/_LabbitMQ_internal_deps/89e7d7c5feba84ce"/>
+				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -464,7 +463,7 @@
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="CC44AD91BA55028CB2EC25FEDAA0662A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CC44AD91BA55028CB2EC25FEDAA0662A"/>
 				<Item Name="CFE5026278E73FDC395AB021964B5DCA" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CFE5026278E73FDC395AB021964B5DCA"/>
-				<Item Name="Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Channel/Channel.lvclass"/>
+				<Item Name="Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Channel/Channel.lvclass"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
@@ -477,7 +476,7 @@
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Connection/Connection.lvclass"/>
+				<Item Name="Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Connection/Connection.lvclass"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
@@ -646,7 +645,7 @@
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Exchange.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Exchange/Exchange.lvclass"/>
+				<Item Name="Exchange.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Exchange/Exchange.lvclass"/>
 				<Item Name="F799083E828EF05FB566B571A7BB6A2E" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F799083E828EF05FB566B571A7BB6A2E"/>
 				<Item Name="FAB0FCF02C103A415945F996710BCDDF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAB0FCF02C103A415945F996710BCDDF"/>
 				<Item Name="FAE7CECC302C1CA00236481A335C8781" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FAE7CECC302C1CA00236481A335C8781"/>
@@ -696,7 +695,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
-				<Item Name="NI_3dgraph.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/NI_3dgraph.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -718,7 +716,8 @@
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
-				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Scaffold/Queue/Queue.lvclass"/>
+				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Queue/Queue.lvclass"/>
+				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -774,9 +773,7 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="BinarizationRegistration.vi" Type="VI" URL="../../dependencies/ImageReg/BinarizationRegistration.vi"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="create standard file path.vi" Type="VI" URL="../../dependencies/utilities/create standard file path.vi"/>
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
