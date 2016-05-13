@@ -712,6 +712,15 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 				</Item>
+				<Item Name="Set output trigger pulses.vi" Type="VI" URL="../Set output trigger pulses.vi">
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!12%&amp;24X*D95:M98.I)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"7!0(2NR2D!!!!!B2%16&amp;0=G.B2GRB=WAO&lt;(:D&lt;'&amp;T=QVD&lt;WZO:7.U&lt;X)O9X2M!#N!&amp;Q!$!4%"-A%T!"B0&gt;82Q&gt;81A&gt;(*J:W&gt;F=C"D&lt;WZO:7.U&lt;X)!!$"!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!02%&amp;24X*D95:M98.I)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#1!!!!!!%!#1!!!!!</Property>
+					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+				</Item>
 				<Item Name="set output trigger source.vi" Type="VI" URL="../set output trigger source.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!12%&amp;24X*D95:M98.I)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"7!0(2NR2D!!!!!B2%16&amp;0=G.B2GRB=WAO&lt;(:D&lt;'&amp;T=QVD&lt;WZO:7.U&lt;X)O9X2M!#N!&amp;Q!$!4%"-A%T!"B0&gt;82Q&gt;81A&gt;(*J:W&gt;F=C"D&lt;WZO:7.U&lt;X)!!$"!=!!?!!!7&amp;%2"55^S9W&amp;'&lt;'&amp;T;#ZM&gt;G.M98.T!!!02%&amp;24X*D95:M98.I)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#1!!!!!!%!#1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
