@@ -882,7 +882,6 @@
 			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
 			<Item Name="Available DLLs.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLLs.ctl"/>
 			<Item Name="Available interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available interfaces.ctl"/>
-			<Item Name="BinarizationRegistration.vi" Type="VI" URL="../dependencies/ImageReg/BinarizationRegistration.vi"/>
 			<Item Name="Build command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build command substring.vi"/>
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
@@ -895,6 +894,9 @@
 			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
 			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected systems (Array).vi"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="email sender.vi" Type="VI" URL="../dependencies/utilities/email sender.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
@@ -917,7 +919,6 @@
 			<Item Name="Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
 			<Item Name="HLT.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/HLT.vi"/>
-			<Item Name="ImageReg.dll" Type="Document" URL="../dependencies/ImageReg/C++/bin/Release/ImageReg.dll"/>
 			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
 			<Item Name="Initialize Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
 			<Item Name="Initialize Global2.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
@@ -925,7 +926,6 @@
 			<Item Name="LIM?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/LIM?.vi"/>
 			<Item Name="LUT cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/LUT cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MattesImageRegistration.vi" Type="VI" URL="../dependencies/ImageReg/MattesImageRegistration.vi"/>
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/MaxPower cluster.ctl"/>
 			<Item Name="Mercury_GCS_Configuration_Setup.vi" Type="VI" URL="../StageSPIM/PI drivers/Mercury_GCS_Configuration_Setup.vi"/>
 			<Item Name="MOV.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
@@ -1141,6 +1141,44 @@
 				<Property Name="TgtF_productName" Type="Str">ImagingModeSPIM</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A218BAA2-C8B6-4C44-B9FB-39E2D9F49F55}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImagingModeSPIM.exe</Property>
+			</Item>
+			<Item Name="LineCCD" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{52B1C204-8FF3-4916-82B9-DC71CBB98865}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A4E397F1-C8B5-42B6-B1BB-E9B78E99AED9}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6C681B16-0B21-48BD-8F37-F42A5059F33F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LineCCD</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/lineCCD</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B6C0648C-1A99-4AE5-A628-E57B6FB4F071}</Property>
+				<Property Name="Destination[0].destName" Type="Str">LineCCD.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/lineCCD/LineCCD.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/lineCCD/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LineCCD.lvclass/cricket.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8292ECC3-0F54-4938-A9D6-76945ACCA7EA}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LineCCD.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LineCCD</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">LineCCD</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">LineCCD</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{01B7D61D-18ED-44AA-A8CD-0ACBEE9B4AA7}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LineCCD.exe</Property>
 			</Item>
 			<Item Name="stagesSPIM" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
