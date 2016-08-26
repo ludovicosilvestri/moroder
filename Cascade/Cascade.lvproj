@@ -793,7 +793,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/salmon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A811112B-226E-4FD6-B5E0-EFB09FF9EC6C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{142A4F12-36F4-4F07-905A-6F37B4B05E64}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade.lvclass/Main.vi</Property>
@@ -807,6 +807,43 @@
 				<Property Name="TgtF_productName" Type="Str">Cascade</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C552D03B-713D-4883-AE14-0C5CE33B4D20}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Cascade.exe</Property>
+			</Item>
+			<Item Name="Piezo" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5CBAEF80-1128-4EE7-B389-B0BC3853F17B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1D946CBB-62CB-45D8-8343-C3E84CF4578E}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B6D440E7-915B-47E1-97D7-A1004FD79E06}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Piezo</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/Distrio/executables/piezo</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AAD0C5F4-1E36-41D8-A202-AD0743CF140F}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Piezo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/Distrio/executables/piezo/Piezo.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/Distrio/executables/piezo/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{142A4F12-36F4-4F07-905A-6F37B4B05E64}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Piezo.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Piezo</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Piezo</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
+				<Property Name="TgtF_productName" Type="Str">Piezo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3733B877-31BC-4954-9927-52147931B8C4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Piezo.exe</Property>
 			</Item>
 		</Item>
 	</Item>
