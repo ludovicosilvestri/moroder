@@ -11,13 +11,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="icons" Type="Folder">
+			<Item Name="aef50a29f12e06db36021a71a8d7b6cc.ico" Type="Document" URL="../../ConfocalStage/aef50a29f12e06db36021a71a8d7b6cc.ico"/>
+			<Item Name="index.ico" Type="Document" URL="../../Piezo/index.ico"/>
+			<Item Name="salmon.ico" Type="Document" URL="../salmon.ico"/>
+		</Item>
 		<Item Name="ImageReg" Type="Folder" URL="../../dependencies/ImageReg">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Cascade.lvclass" Type="LVClass" URL="../Cascade/Cascade.lvclass"/>
 		<Item Name="ConfocalStage.lvclass" Type="LVClass" URL="../../ConfocalStage/ConfocalStage/ConfocalStage.lvclass"/>
 		<Item Name="Piezo.lvclass" Type="LVClass" URL="../../Piezo/Piezo/Piezo.lvclass"/>
-		<Item Name="salmon.ico" Type="Document" URL="../salmon.ico"/>
+		<Item Name="QCAM Snap.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Snap.vi"/>
+		<Item Name="Retiga.lvclass" Type="LVClass" URL="../../Retiga/Retiga/Retiga.lvclass"/>
 		<Item Name="test.vi" Type="VI" URL="../Cascade/test.vi"/>
 		<Item Name="z_StringGetThrough_.vi" Type="VI" URL="../../z_StringGetThrough_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -250,6 +256,17 @@
 				<Item Name="InitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/InitToolkit.vi"/>
 				<Item Name="MergeErrorOut.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/MergeErrorOut.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+				<Item Name="QCAM Close.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Close.vi"/>
+				<Item Name="QCAM Copy.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Copy.vi"/>
+				<Item Name="QCAM Error.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Error.vi"/>
+				<Item Name="QCam Grab Abort.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCam Grab Abort.vi"/>
+				<Item Name="QCAM Grab Acquire.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Grab Acquire.vi"/>
+				<Item Name="QCAM Grab Setup.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Grab Setup.vi"/>
+				<Item Name="QCAM Grab Stop.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Grab Stop.vi"/>
+				<Item Name="QCAM Open.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Open.vi"/>
+				<Item Name="QCAM SetParam.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM SetParam.vi"/>
+				<Item Name="QCAM Setup.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Setup.vi"/>
+				<Item Name="QCamLV.dll" Type="Document" URL="/&lt;userlib&gt;/qcam/QCamLV.dll"/>
 				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
@@ -645,6 +662,7 @@
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
+				<Item Name="IMAQ GetImagePixelPtr" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImagePixelPtr"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
@@ -725,6 +743,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -758,6 +777,9 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
@@ -794,7 +816,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/salmon.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/salmon.ico</Property>
 				<Property Name="Source[0].itemID" Type="Str">{142A4F12-36F4-4F07-905A-6F37B4B05E64}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -809,6 +831,44 @@
 				<Property Name="TgtF_productName" Type="Str">Cascade</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C552D03B-713D-4883-AE14-0C5CE33B4D20}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Cascade.exe</Property>
+			</Item>
+			<Item Name="ConfocalStage" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D7FE92F7-FEE3-414E-884D-C333958930B0}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B6104DDC-BB60-43E0-9C6C-7B503CFDE9AD}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D641846E-CC02-4267-9F64-8484812AAD43}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ConfocalStage</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/Distrio/executables/confocalstage</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BF79D5F9-A2D4-4964-BB45-B83962EE3119}</Property>
+				<Property Name="Destination[0].destName" Type="Str">ConfocalStage.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/Distrio/executables/confocalstage/ConfocalStage.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/Distrio/executables/confocalstage/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/aef50a29f12e06db36021a71a8d7b6cc.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{448D5B8F-555F-448F-8794-C3BCC98BB26C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ConfocalStage.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ConfocalStage</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">ConfocalStage</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
+				<Property Name="TgtF_productName" Type="Str">ConfocalStage</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{729BE940-4F58-4E19-8ED1-9384B3C13647}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ConfocalStage.exe</Property>
 			</Item>
 			<Item Name="Piezo" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -832,7 +892,8 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{142A4F12-36F4-4F07-905A-6F37B4B05E64}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/index.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{448D5B8F-555F-448F-8794-C3BCC98BB26C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Piezo.lvclass/Main.vi</Property>
