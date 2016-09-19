@@ -1142,44 +1142,6 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A218BAA2-C8B6-4C44-B9FB-39E2D9F49F55}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImagingModeSPIM.exe</Property>
 			</Item>
-			<Item Name="LineCCD" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{52B1C204-8FF3-4916-82B9-DC71CBB98865}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{A4E397F1-C8B5-42B6-B1BB-E9B78E99AED9}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{6C681B16-0B21-48BD-8F37-F42A5059F33F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">LineCCD</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/lineCCD</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B6C0648C-1A99-4AE5-A628-E57B6FB4F071}</Property>
-				<Property Name="Destination[0].destName" Type="Str">LineCCD.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/lineCCD/LineCCD.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/lineCCD/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LineCCD.lvclass/cricket.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8292ECC3-0F54-4938-A9D6-76945ACCA7EA}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LineCCD.lvclass/Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">LineCCD</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
-				<Property Name="TgtF_internalName" Type="Str">LineCCD</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
-				<Property Name="TgtF_productName" Type="Str">LineCCD</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{01B7D61D-18ED-44AA-A8CD-0ACBEE9B4AA7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">LineCCD.exe</Property>
-			</Item>
 			<Item Name="stagesSPIM" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{C013A084-088C-40A1-BF2F-3FC36C00D49A}</Property>
@@ -1257,44 +1219,6 @@
 				<Property Name="TgtF_productName" Type="Str">Tomo</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EDD68F74-0C1B-4AB0-A96B-0A418797D84F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tomo.exe</Property>
-			</Item>
-			<Item Name="waveform" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{DD9E0C3E-5026-461E-9D15-92D9F5843296}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{DC088A92-C6BB-4F75-8B5F-E2426DA1E33A}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{AE37BD12-A764-4FDB-B343-BD57700C3FA3}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">waveform</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/waveform</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9E2D375B-7F80-4C1E-A3A6-509E37CC2D7A}</Property>
-				<Property Name="Destination[0].destName" Type="Str">waveform.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/waveform/waveform.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Users/Giovanni Giorgio/Documents/Distrio/executables/waveform/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Waveform.lvclass/17709721-Cartoon-Illustration-of-Funny-Horse-Farm-.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{42DFEDDF-BD0D-43C2-A14D-D4FC00A74BE2}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Waveform.lvclass/Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">waveform</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
-				<Property Name="TgtF_internalName" Type="Str">waveform</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 LENS</Property>
-				<Property Name="TgtF_productName" Type="Str">waveform</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{88CCF2B2-CC9F-4FCB-93D7-ACEE5ED9891F}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">waveform.exe</Property>
 			</Item>
 		</Item>
 	</Item>
