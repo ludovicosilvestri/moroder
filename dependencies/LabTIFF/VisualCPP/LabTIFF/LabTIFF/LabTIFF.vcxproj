@@ -46,8 +46,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <LibraryPath>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
+    <IncludePath>C:\moroder\dependencies\LabTIFF\VisualCPP\LabTIFF\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\moroder\dependencies\LabTIFF\VisualCPP\LabTIFF\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -76,15 +76,15 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LABTIFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\moroder\dependencies\LabTIFF\VisualCPP\LabTIFF\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib\libtiff.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\moroder\dependencies\LabTIFF\VisualCPP\LabTIFF\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\moroder\dependencies\LabTIFF\VisualCPP\LabTIFF\lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>

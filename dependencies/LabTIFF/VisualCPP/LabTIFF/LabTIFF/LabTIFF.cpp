@@ -166,3 +166,132 @@ __declspec(dllexport) int AppendPage(int*& FileRef, double* DataArray, uint32 Im
 
 	return 0;
 }
+
+__declspec(dllexport) int GetPage(int*& FileRef, double* DataArray, uint32 ImageHeight, uint32 ImageWidth, char* ImageType, int frameindex)
+{
+	TIFF *tif = (TIFF*)FileRef;
+	tdir_t dirnumber = (tdir_t)frameindex;
+	uint16 SamplesPerPixel, BitsPerSample;
+	uint8* DataArray_uint8 = (uint8*)DataArray;
+	uint16* DataArray_uint16 = (uint16*)DataArray;
+	int16* DataArray_int16 = (int16*)DataArray;
+	uint32* DataArray_RGBA32 = (uint32*)DataArray;
+	uint64* DataArray_RGBA64 = (uint64*)DataArray;
+	float* DataArray_float32 = (float*)DataArray;
+	tsize_t StripSize;
+	uint32 rows;
+	int nPixels = ImageWidth * ImageHeight;
+	tstrip_t nStrips;
+
+	if (!strcmp(ImageType, "uint8"))
+	{
+		BitsPerSample = 8;
+		SamplesPerPixel = 1;
+		DataArray_uint8 = new uint8[nPixels];		
+	}
+	else if (!strcmp(ImageType, "uint16"))
+	{
+		BitsPerSample = 16;
+		SamplesPerPixel = 1;
+		DataArray_uint16 = new uint16[nPixels];
+	}
+	else if (!strcmp(ImageType, "int16"))
+	{
+		BitsPerSample = 16;
+		SamplesPerPixel = 1;
+		DataArray_int16 = new int16[nPixels];
+	}
+	else if (!strcmp(ImageType, "RGBA32"))
+	{
+		BitsPerSample = 8;
+		SamplesPerPixel = 4;
+		DataArray_RGBA32 = new uint32[nPixels];
+	}
+	else if (!strcmp(ImageType, "RGBA64"))
+	{
+		BitsPerSample = 16;
+		SamplesPerPixel = 4;
+		DataArray_RGBA64 = new uint64[nPixels];
+	}
+	else if (!strcmp(ImageType, "float32"))
+	{
+		BitsPerSample = 32;
+		SamplesPerPixel = 1;
+		DataArray_float32 = new float[nPixels];
+	}
+
+	if (TIFFSetDirectory(tif, dirnumber))
+	{
+		rows = TIFFGetField(tif, TIFFTAG_ROWSPERSTRIP);
+		nStrips = TIFFNumberOfStrips(tif);
+		StripSize = TIFFStripSize(tif);
+
+		//  the code works fine for even number of rows. A proper handling of remainders should be introduced.
+		// currently, the remainders are just not used. CHECK THIS STUFF FOR READING PURPOSES
+
+		int striprows = (int)rows * (int)nStrips;
+		if (striprows > (int)ImageHeight)
+		{
+			nStrips = nStrips - 1;
+			//TIFFSetField(tif, TIFFTAG_IMAGELENGTH, ImageHeight - 1);
+		}
+
+		for (tstrip_t StripCount = 0; StripCount < nStrips; StripCount++)
+		{
+			if (!strcmp(ImageType, "uint8"))
+				TIFFReadEncodedStrip(tif, StripCount, &DataArray_uint8[StripCount * StripSize], StripSize);
+			else if (!strcmp(ImageType, "uint16"))
+				TIFFReadEncodedStrip(tif, StripCount, &DataArray_uint16[(StripCount * StripSize) / 2], StripSize);
+			else if (!strcmp(ImageType, "int16"))
+				TIFFReadEncodedStrip(tif, StripCount, &DataArray_int16[(StripCount * StripSize) / 2], StripSize);
+			else if (!strcmp(ImageType, "RGBA32"))
+				TIFFReadEncodedStrip(tif, StripCount, &DataArray_RGBA32[(StripCount * StripSize) / 4], StripSize);
+			else if (!strcmp(ImageType, "RGBA64"))
+				TIFFReadEncodedStrip(tif, StripCount, &DataArray_RGBA64[(StripCount * StripSize) / 4], StripSize);
+			else if (!strcmp(ImageType, "float32"))
+				TIFFReadEncodedStrip(tif, StripCount, &DataArray_float32[(StripCount * StripSize) / 4], StripSize);
+		}
+
+		if (!strcmp(ImageType, "uint8"))
+		{
+			for (int i = 0; i < nPixels; i++)
+				DataArray[i] = (double)DataArray_uint8[i];
+			delete[] DataArray_uint8;
+		}
+		else if (!strcmp(ImageType, "uint16"))
+		{
+			for (int i = 0; i < nPixels; i++)
+				 DataArray[i] = (double)DataArray_uint16[i];
+			delete[] DataArray_uint16;
+		}
+		else if (!strcmp(ImageType, "int16"))
+		{
+			for (int i = 0; i < nPixels; i++)
+				 DataArray[i] = (double)DataArray_int16[i];
+			delete[] DataArray_int16;
+		}
+		else if (!strcmp(ImageType, "RGBA32"))
+		{
+			for (int i = 0; i < nPixels; i++)
+				DataArray[i] = (double)DataArray_RGBA32[i];
+			delete[] DataArray_RGBA32;
+		}
+		else if (!strcmp(ImageType, "RGBA64"))
+		{
+			for (int i = 0; i < nPixels; i++)
+				DataArray[i] = (double)DataArray_RGBA64[i];
+			delete[] DataArray_RGBA64;
+		}
+		else if (!strcmp(ImageType, "float32"))
+		{
+			for (int i = 0; i < nPixels; i++)
+				DataArray[i] = (double)DataArray_float32[i];
+			delete[] DataArray_float32;
+		}
+
+		return 0;
+
+	}
+	else 
+		return 9001;
+}
