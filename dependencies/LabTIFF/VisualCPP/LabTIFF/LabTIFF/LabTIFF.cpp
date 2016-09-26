@@ -34,6 +34,19 @@ __declspec(dllexport) int GetNumberOfPages(int*& FileRef, int& NumberOfPages)
 	return 0;
 }
 
+__declspec(dllexport) int GetFrameSize(int*& FileRef, uint32& ImageWidth, uint32& ImageHeight)
+{
+	int error;
+	uint32 W, H;
+	TIFF *tif = (TIFF*)FileRef;
+	error = TIFFGetField(tif, TIFFTAG_IMAGEWIDTH, &W);
+	error = TIFFGetField(tif, TIFFTAG_IMAGELENGTH, &H);
+	ImageWidth = W;
+	ImageHeight = H;
+
+	return error;
+}
+
 __declspec(dllexport) int AppendPage(int*& FileRef, double* DataArray, uint32 ImageHeight, uint32 ImageWidth, char* ImageType)
 {
 	uint16 SamplesPerPixel, BitsPerSample;
@@ -167,7 +180,7 @@ __declspec(dllexport) int AppendPage(int*& FileRef, double* DataArray, uint32 Im
 	return 0;
 }
 
-__declspec(dllexport) int GetPage(int*& FileRef, double* DataArray, uint32 ImageHeight, uint32 ImageWidth, char* ImageType, int frameindex)
+__declspec(dllexport) int GetPage(int*& FileRef, double* DataArray, uint32& ImageHeight, uint32& ImageWidth, char* ImageType, int frameindex)
 {
 	TIFF *tif = (TIFF*)FileRef;
 	tdir_t dirnumber = (tdir_t)frameindex;
@@ -179,15 +192,27 @@ __declspec(dllexport) int GetPage(int*& FileRef, double* DataArray, uint32 Image
 	uint64* DataArray_RGBA64 = (uint64*)DataArray;
 	float* DataArray_float32 = (float*)DataArray;
 	tsize_t StripSize;
-	uint32 rows;
-	int nPixels = ImageWidth * ImageHeight;
+	uint32 rows,W,H;
+	int error;
+
+	if (!TIFFSetDirectory(tif, dirnumber))
+	{
+		return 9001;
+	}
+	
+	error = TIFFGetField(tif, TIFFTAG_IMAGEWIDTH, &W);
+	error = TIFFGetField(tif, TIFFTAG_IMAGELENGTH, &H);
+	ImageWidth = W;
+	ImageHeight = H;
+
+	int nPixels = W * H;
 	tstrip_t nStrips;
 
 	if (!strcmp(ImageType, "uint8"))
 	{
 		BitsPerSample = 8;
 		SamplesPerPixel = 1;
-		DataArray_uint8 = new uint8[nPixels];		
+		DataArray_uint8 = new uint8[nPixels];
 	}
 	else if (!strcmp(ImageType, "uint16"))
 	{
@@ -220,78 +245,75 @@ __declspec(dllexport) int GetPage(int*& FileRef, double* DataArray, uint32 Image
 		DataArray_float32 = new float[nPixels];
 	}
 
-	if (TIFFSetDirectory(tif, dirnumber))
+	error = TIFFGetField(tif, TIFFTAG_ROWSPERSTRIP, &rows);
+	nStrips = TIFFNumberOfStrips(tif);
+	StripSize = TIFFStripSize(tif);
+
+	//  the code works fine for even number of rows. A proper handling of remainders should be introduced.
+	// currently, the remainders are just not used. CHECK THIS STUFF FOR READING PURPOSES
+
+	int striprows = (int)rows * (int)nStrips;
+	if (striprows > (int)H)
 	{
-		rows = TIFFGetField(tif, TIFFTAG_ROWSPERSTRIP);
-		nStrips = TIFFNumberOfStrips(tif);
-		StripSize = TIFFStripSize(tif);
-
-		//  the code works fine for even number of rows. A proper handling of remainders should be introduced.
-		// currently, the remainders are just not used. CHECK THIS STUFF FOR READING PURPOSES
-
-		int striprows = (int)rows * (int)nStrips;
-		if (striprows > (int)ImageHeight)
-		{
-			nStrips = nStrips - 1;
-			//TIFFSetField(tif, TIFFTAG_IMAGELENGTH, ImageHeight - 1);
-		}
-
-		for (tstrip_t StripCount = 0; StripCount < nStrips; StripCount++)
-		{
-			if (!strcmp(ImageType, "uint8"))
-				TIFFReadEncodedStrip(tif, StripCount, &DataArray_uint8[StripCount * StripSize], StripSize);
-			else if (!strcmp(ImageType, "uint16"))
-				TIFFReadEncodedStrip(tif, StripCount, &DataArray_uint16[(StripCount * StripSize) / 2], StripSize);
-			else if (!strcmp(ImageType, "int16"))
-				TIFFReadEncodedStrip(tif, StripCount, &DataArray_int16[(StripCount * StripSize) / 2], StripSize);
-			else if (!strcmp(ImageType, "RGBA32"))
-				TIFFReadEncodedStrip(tif, StripCount, &DataArray_RGBA32[(StripCount * StripSize) / 4], StripSize);
-			else if (!strcmp(ImageType, "RGBA64"))
-				TIFFReadEncodedStrip(tif, StripCount, &DataArray_RGBA64[(StripCount * StripSize) / 4], StripSize);
-			else if (!strcmp(ImageType, "float32"))
-				TIFFReadEncodedStrip(tif, StripCount, &DataArray_float32[(StripCount * StripSize) / 4], StripSize);
-		}
-
-		if (!strcmp(ImageType, "uint8"))
-		{
-			for (int i = 0; i < nPixels; i++)
-				DataArray[i] = (double)DataArray_uint8[i];
-			delete[] DataArray_uint8;
-		}
-		else if (!strcmp(ImageType, "uint16"))
-		{
-			for (int i = 0; i < nPixels; i++)
-				 DataArray[i] = (double)DataArray_uint16[i];
-			delete[] DataArray_uint16;
-		}
-		else if (!strcmp(ImageType, "int16"))
-		{
-			for (int i = 0; i < nPixels; i++)
-				 DataArray[i] = (double)DataArray_int16[i];
-			delete[] DataArray_int16;
-		}
-		else if (!strcmp(ImageType, "RGBA32"))
-		{
-			for (int i = 0; i < nPixels; i++)
-				DataArray[i] = (double)DataArray_RGBA32[i];
-			delete[] DataArray_RGBA32;
-		}
-		else if (!strcmp(ImageType, "RGBA64"))
-		{
-			for (int i = 0; i < nPixels; i++)
-				DataArray[i] = (double)DataArray_RGBA64[i];
-			delete[] DataArray_RGBA64;
-		}
-		else if (!strcmp(ImageType, "float32"))
-		{
-			for (int i = 0; i < nPixels; i++)
-				DataArray[i] = (double)DataArray_float32[i];
-			delete[] DataArray_float32;
-		}
-
-		return 0;
-
+		nStrips = nStrips - 1;
+		//TIFFSetField(tif, TIFFTAG_IMAGELENGTH, ImageHeight - 1);
 	}
-	else 
-		return 9001;
+
+	for (tstrip_t StripCount = 0; StripCount < nStrips; StripCount++)
+	{
+		if (!strcmp(ImageType, "uint8"))
+			error = TIFFReadEncodedStrip(tif, StripCount, &DataArray_uint8[StripCount * StripSize], StripSize);
+		else if (!strcmp(ImageType, "uint16"))
+			error = TIFFReadEncodedStrip(tif, StripCount, &DataArray_uint16[(StripCount * StripSize) / 2], StripSize);
+		else if (!strcmp(ImageType, "int16"))
+			error = TIFFReadEncodedStrip(tif, StripCount, &DataArray_int16[(StripCount * StripSize) / 2], StripSize);
+		else if (!strcmp(ImageType, "RGBA32"))
+			error = TIFFReadEncodedStrip(tif, StripCount, &DataArray_RGBA32[(StripCount * StripSize) / 4], StripSize);
+		else if (!strcmp(ImageType, "RGBA64"))
+			error = TIFFReadEncodedStrip(tif, StripCount, &DataArray_RGBA64[(StripCount * StripSize) / 4], StripSize);
+		else if (!strcmp(ImageType, "float32"))
+			error = TIFFReadEncodedStrip(tif, StripCount, &DataArray_float32[(StripCount * StripSize) / 4], StripSize);
+	}
+
+	if (!strcmp(ImageType, "uint8"))
+	{
+		for (int i = 0; i < nPixels; i++)
+			DataArray[i] = (double)DataArray_uint8[i];
+		//ImageHeight = (uint32)DataArray_uint8[51235];
+		//ImageWidth = (uint32)DataArray[51235];
+		delete[] DataArray_uint8;
+	}
+	else if (!strcmp(ImageType, "uint16"))
+	{
+		for (int i = 0; i < nPixels; i++)
+			DataArray[i] = (double)DataArray_uint16[i];
+		delete[] DataArray_uint16;
+	}
+	else if (!strcmp(ImageType, "int16"))
+	{
+		for (int i = 0; i < nPixels; i++)
+			DataArray[i] = (double)DataArray_int16[i];
+		delete[] DataArray_int16;
+	}
+	else if (!strcmp(ImageType, "RGBA32"))
+	{
+		for (int i = 0; i < nPixels; i++)
+			DataArray[i] = (double)DataArray_RGBA32[i];
+		delete[] DataArray_RGBA32;
+	}
+	else if (!strcmp(ImageType, "RGBA64"))
+	{
+		for (int i = 0; i < nPixels; i++)
+			DataArray[i] = (double)DataArray_RGBA64[i];
+		delete[] DataArray_RGBA64;
+	}
+	else if (!strcmp(ImageType, "float32"))
+	{
+		for (int i = 0; i < nPixels; i++)
+			DataArray[i] = (double)DataArray_float32[i];
+		delete[] DataArray_float32;
+	}
+	
+	return error;
+		
 }
