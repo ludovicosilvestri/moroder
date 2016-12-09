@@ -770,9 +770,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
 			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
