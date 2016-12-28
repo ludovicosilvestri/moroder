@@ -18,9 +18,9 @@
 			<Item Name="LabelImage.vi" Type="VI" URL="../LabelImage.vi"/>
 			<Item Name="LogfileReader.vi" Type="VI" URL="../LogfileReader.vi"/>
 			<Item Name="SaveTrack.vi" Type="VI" URL="../SaveTrack.vi"/>
-			<Item Name="TransformObjectPosition.vi" Type="VI" URL="../TransformObjectPosition.vi"/>
+			<Item Name="TransformObjectPosition_Objects.vi" Type="VI" URL="../TransformObjectPosition_Objects.vi"/>
 		</Item>
-		<Item Name="PositionTracer.vi" Type="VI" URL="../PositionTracer.vi"/>
+		<Item Name="PositionTracer_Objects.vi" Type="VI" URL="../PositionTracer_Objects.vi"/>
 		<Item Name="PositionVideo.vi" Type="VI" URL="../PositionVideo.vi"/>
 		<Item Name="TrackExtractor.vi" Type="VI" URL="../TrackExtractor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
