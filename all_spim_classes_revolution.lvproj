@@ -24,6 +24,7 @@
 		<Item Name="create standard file path.vi" Type="VI" URL="../dependencies/utilities/create standard file path.vi"/>
 		<Item Name="ImageStack.lvclass" Type="LVClass" URL="../ImageStack/ImageStack/ImageStack.lvclass"/>
 		<Item Name="LineCCD.lvclass" Type="LVClass" URL="../LineCCD/LineCCD/LineCCD.lvclass"/>
+		<Item Name="Piezo.lvclass" Type="LVClass" URL="../Piezo/Piezo/Piezo.lvclass"/>
 		<Item Name="StageSPIM.lvclass" Type="LVClass" URL="../StageSPIM/StageSPIM/StageSPIM.lvclass"/>
 		<Item Name="Thorcam.lvclass" Type="LVClass" URL="../Thorcam/Thorcam/Thorcam.lvclass"/>
 		<Item Name="Tomo.lvclass" Type="LVClass" URL="../Tomo/Tomo/Tomo.lvclass"/>
@@ -882,6 +883,7 @@
 			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
 			<Item Name="Available DLLs.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLLs.ctl"/>
 			<Item Name="Available interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available interfaces.ctl"/>
+			<Item Name="BinarizationRegistration.vi" Type="VI" URL="../dependencies/ImageReg/BinarizationRegistration.vi"/>
 			<Item Name="Build command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build command substring.vi"/>
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
@@ -899,6 +901,7 @@
 			</Item>
 			<Item Name="email sender.vi" Type="VI" URL="../dependencies/utilities/email sender.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
+			<Item Name="Extract maximum.vi" Type="VI" URL="../dependencies/ImageReg/Extract maximum.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
 			<Item Name="FPL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FPL.vi"/>
 			<Item Name="FRF.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FRF.vi"/>
@@ -919,6 +922,8 @@
 			<Item Name="Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
 			<Item Name="HLT.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/HLT.vi"/>
+			<Item Name="ImageEqualizer.vi" Type="VI" URL="../dependencies/ImageReg/ImageEqualizer.vi"/>
+			<Item Name="ImageReg.dll" Type="Document" URL="../dependencies/ImageReg/C++/bin/Release/ImageReg.dll"/>
 			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
 			<Item Name="Initialize Global1.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Initialize Global1.vi"/>
 			<Item Name="Initialize Global2.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
@@ -926,6 +931,7 @@
 			<Item Name="LIM?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/LIM?.vi"/>
 			<Item Name="LUT cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/LUT cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MattesImageRegistration.vi" Type="VI" URL="../dependencies/ImageReg/MattesImageRegistration.vi"/>
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/MaxPower cluster.ctl"/>
 			<Item Name="Mercury_GCS_Configuration_Setup.vi" Type="VI" URL="../StageSPIM/PI drivers/Mercury_GCS_Configuration_Setup.vi"/>
 			<Item Name="MOV.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
