@@ -625,23 +625,16 @@
 			</Item>
 			<Item Name="Append Page.vi" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/Append Page.vi"/>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/utilities/bool_to_enable_state.vi"/>
-			<Item Name="Box.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/Box/Box.lvclass"/>
-			<Item Name="Clear error conditionally.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Clear error conditionally.vi"/>
 			<Item Name="CloseTIFF.vi" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/CloseTIFF.vi"/>
-			<Item Name="Create random string.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Create random string.vi"/>
 			<Item Name="create_random_string.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Find best fit.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Find best fit.vi"/>
 			<Item Name="Find first nonzero element in array.vi" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/Find first nonzero element in array.vi"/>
 			<Item Name="Get number of pages.vi" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/Get number of pages.vi"/>
 			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../dependencies/utilities/Give log reference if debugging.vi"/>
-			<Item Name="Image.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/Image/Image.lvclass"/>
-			<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/ImageCollection/ImageCollection.lvclass"/>
 			<Item Name="LabTIFF.dll" Type="Document" URL="../dependencies/LabTIFF/VisualCPP/LabTIFF/Release/LabTIFF.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Mean values 2Darray.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Mean values 2Darray.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -653,10 +646,6 @@
 			</Item>
 			<Item Name="Opening Purpose.ctl" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/Opening Purpose.ctl"/>
 			<Item Name="OpenTIFF.vi" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/OpenTIFF.vi"/>
-			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/clusters/range_offset_cluster.ctl"/>
-			<Item Name="Rotate 2D array.vi" Type="VI" URL="../../Lucid/LabVIEW/dependencies/common/utilities/Rotate 2D array.vi"/>
-			<Item Name="Semicolon string to array.vi" Type="VI" URL="../dependencies/utilities/Semicolon string to array.vi"/>
-			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="String array to semicolon.vi" Type="VI" URL="../dependencies/utilities/String array to semicolon.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -664,14 +653,10 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="target_format_enum.ctl" Type="VI" URL="../../Lucid/LabVIEW/dependencies/classes/Image/target_format_enum.ctl"/>
 			<Item Name="TIFF Error Handler.vi" Type="VI" URL="../dependencies/LabTIFF/LabTIFF/TIFF Error Handler.vi"/>
-			<Item Name="TIFFManagement.lvlib" Type="Library" URL="../../Lucid/LabVIEW/dependencies/classes/TIFFManagement/TIFFManagement.lvlib"/>
 			<Item Name="tmcamcon.dll" Type="Document" URL="tmcamcon.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../Lucid/LabVIEW/dependencies/enumerations/x_y_z_enumeration.ctl"/>
-			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../Lucid/LabVIEW/dependencies/classes/XMLElement/XMLElement.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DAQOrcaFlash" Type="EXE">
