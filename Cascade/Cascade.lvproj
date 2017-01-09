@@ -46,7 +46,6 @@
 				<Item Name="CameraSetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetTemp.vi"/>
 				<Item Name="CameraSetVar.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetVar.vi"/>
 				<Item Name="CameraShutter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraShutter.vi"/>
-				<Item Name="CameraSkips.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSkips.vi"/>
 				<Item Name="CameraStart.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStart.vi"/>
 				<Item Name="CameraStop.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStop.vi"/>
 				<Item Name="CameraTrigger.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraTrigger.vi"/>
@@ -770,10 +769,10 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
-			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
