@@ -17,11 +17,15 @@
 			<Item Name="BuildLabelString.vi" Type="VI" URL="../BuildLabelString.vi"/>
 			<Item Name="LabelImage.vi" Type="VI" URL="../LabelImage.vi"/>
 			<Item Name="LogfileReader.vi" Type="VI" URL="../LogfileReader.vi"/>
+			<Item Name="MatlabfileReader.vi" Type="VI" URL="../MatlabfileReader.vi"/>
 			<Item Name="SaveTrack.vi" Type="VI" URL="../SaveTrack.vi"/>
+			<Item Name="SelectROI.vi" Type="VI" URL="../SelectROI.vi"/>
+			<Item Name="TrackExtractor2.vi" Type="VI" URL="../TrackExtractor2.vi"/>
 			<Item Name="TransformObjectPosition_Objects.vi" Type="VI" URL="../TransformObjectPosition_Objects.vi"/>
 		</Item>
 		<Item Name="PositionTracer_Objects.vi" Type="VI" URL="../PositionTracer_Objects.vi"/>
 		<Item Name="PositionVideo.vi" Type="VI" URL="../PositionVideo.vi"/>
+		<Item Name="ShiftAnalyzer.vi" Type="VI" URL="../ShiftAnalyzer.vi"/>
 		<Item Name="TrackExtractor.vi" Type="VI" URL="../TrackExtractor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -118,6 +122,7 @@
 				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
 				<Item Name="IMAQ Rounding Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rounding Mode.ctl"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQ WindZoom 2" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindZoom 2"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
 				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
