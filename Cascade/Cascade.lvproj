@@ -21,6 +21,7 @@
 		</Item>
 		<Item Name="Cascade.lvclass" Type="LVClass" URL="../Cascade/Cascade.lvclass"/>
 		<Item Name="ConfocalStage.lvclass" Type="LVClass" URL="../../ConfocalStage/ConfocalStage/ConfocalStage.lvclass"/>
+		<Item Name="LED trigger.vi" Type="VI" URL="../Cascade/LED trigger.vi"/>
 		<Item Name="Piezo.lvclass" Type="LVClass" URL="../../Piezo/Piezo/Piezo.lvclass"/>
 		<Item Name="QCAM Snap.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Snap.vi"/>
 		<Item Name="Retiga.lvclass" Type="LVClass" URL="../../Retiga/Retiga/Retiga.lvclass"/>
