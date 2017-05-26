@@ -23,8 +23,6 @@
 		<Item Name="ConfocalStage.lvclass" Type="LVClass" URL="../../ConfocalStage/ConfocalStage/ConfocalStage.lvclass"/>
 		<Item Name="LED trigger.vi" Type="VI" URL="../Cascade/LED trigger.vi"/>
 		<Item Name="Piezo.lvclass" Type="LVClass" URL="../../Piezo/Piezo/Piezo.lvclass"/>
-		<Item Name="QCAM Snap.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Snap.vi"/>
-		<Item Name="Retiga.lvclass" Type="LVClass" URL="../../Retiga/Retiga/Retiga.lvclass"/>
 		<Item Name="test.vi" Type="VI" URL="../Cascade/test.vi"/>
 		<Item Name="z_StringGetThrough_.vi" Type="VI" URL="../../z_StringGetThrough_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -47,6 +45,7 @@
 				<Item Name="CameraSetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetTemp.vi"/>
 				<Item Name="CameraSetVar.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetVar.vi"/>
 				<Item Name="CameraShutter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraShutter.vi"/>
+				<Item Name="CameraSkips.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSkips.vi"/>
 				<Item Name="CameraStart.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStart.vi"/>
 				<Item Name="CameraStop.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStop.vi"/>
 				<Item Name="CameraTrigger.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraTrigger.vi"/>
@@ -256,17 +255,6 @@
 				<Item Name="InitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/InitToolkit.vi"/>
 				<Item Name="MergeErrorOut.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/MergeErrorOut.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-				<Item Name="QCAM Close.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Close.vi"/>
-				<Item Name="QCAM Copy.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Copy.vi"/>
-				<Item Name="QCAM Error.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Error.vi"/>
-				<Item Name="QCam Grab Abort.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCam Grab Abort.vi"/>
-				<Item Name="QCAM Grab Acquire.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Grab Acquire.vi"/>
-				<Item Name="QCAM Grab Setup.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Grab Setup.vi"/>
-				<Item Name="QCAM Grab Stop.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Grab Stop.vi"/>
-				<Item Name="QCAM Open.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Open.vi"/>
-				<Item Name="QCAM SetParam.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM SetParam.vi"/>
-				<Item Name="QCAM Setup.vi" Type="VI" URL="/&lt;userlib&gt;/qcam/QCam.llb/QCAM Setup.vi"/>
-				<Item Name="QCamLV.dll" Type="Document" URL="/&lt;userlib&gt;/qcam/QCamLV.dll"/>
 				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
@@ -420,6 +408,7 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
+				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -504,6 +493,7 @@
 				<Item Name="DAQmx Create Channel (AO-FuncGen).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AO-FuncGen).vi"/>
 				<Item Name="DAQmx Create Channel (AO-Voltage-Basic).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AO-Voltage-Basic).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Count Edges).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Count Edges).vi"/>
+				<Item Name="DAQmx Create Channel (CI-Duty Cycle).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Duty Cycle).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Frequency).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Frequency).vi"/>
 				<Item Name="DAQmx Create Channel (CI-GPS Timestamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-GPS Timestamp).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Period).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Period).vi"/>
@@ -662,7 +652,6 @@
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
-				<Item Name="IMAQ GetImagePixelPtr" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImagePixelPtr"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
@@ -717,6 +706,7 @@
 				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Queue/Queue.lvclass"/>
+				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
@@ -745,7 +735,6 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -774,7 +763,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -787,7 +778,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RabbitMQ.Client.dll" Type="Document" URL="../../../DATA/Programming/In Progress/DAQCascade512II/Reqirement/RabbitMQ.Client.dll"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -933,7 +923,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{DEF80F30-14C6-42C1-B985-950D74D4065C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Retiga.lvclass/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/Retiga.lvclass/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
