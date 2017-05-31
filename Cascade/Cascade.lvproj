@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Cascade wrapper" Type="Folder" URL="../../Cascade wrapper">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="icons" Type="Folder">
 			<Item Name="aef50a29f12e06db36021a71a8d7b6cc.ico" Type="Document" URL="../../ConfocalStage/aef50a29f12e06db36021a71a8d7b6cc.ico"/>
 			<Item Name="index.ico" Type="Document" URL="../../Piezo/index.ico"/>
