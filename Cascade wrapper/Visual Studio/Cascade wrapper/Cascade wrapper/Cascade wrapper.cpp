@@ -4,7 +4,7 @@
 #include "stdafx.h"
 
 
-__declspec(dllexport) int OpenCamera(int16 *CamHandle) // sets up and open the camera, giving back the handle
+__declspec(dllexport) int OpenCamera(int16 *CamHandle, int16 *bitdepth) // sets up and open the camera, giving back the handle
 {
 	rs_bool guard; // used to check PVCAM functions output
 	int16 NrOfCameras; // total number of cameras found
@@ -39,6 +39,13 @@ __declspec(dllexport) int OpenCamera(int16 *CamHandle) // sets up and open the c
 	if (PV_OK != pl_set_param(*CamHandle, PARAM_PMODE, &readout))
 	{
 		return(5); // error: cannot set readout mode to frame transfer
+	}
+
+	//int16 bitdepth = 16;
+	// set bit depth
+	if (PV_OK != pl_get_param(*CamHandle, PARAM_BIT_DEPTH, ATTR_CURRENT, (void *)bitdepth))
+	{
+		return(55); // error: cannot set 16 bit depth
 	}
 
 	return(0);
@@ -123,7 +130,7 @@ __declspec(dllexport) int GetFrameSize(int16 CamHandle, UINT16 *xSize, UINT16 *y
 	return(0);
 }
 
-__declspec(dllexport) int StartAcquisition(int16 CamHandle, UINT32 Exposure, int16 ExpMode, int16 CircularMode, UINT16 xSize, UINT16 ySize, UINT16 *Buffer, UINT16 BufferFrames)
+__declspec(dllexport) int StartAcquisition(int16 CamHandle, UINT32 Exposure, int16 ExpMode, int16 CircularMode, UINT16 xSize, UINT16 ySize, UINT16 *Buffer, UINT16 BufferFrames, int *dimensione)
 {
 	rgn_type Region;
 	Region.s1 = 0;
@@ -138,27 +145,43 @@ __declspec(dllexport) int StartAcquisition(int16 CamHandle, UINT32 Exposure, int
 	{
 		return(7000); // error: could not set up acquisition
 	}
-
-	Buffer = new (std::nothrow) uns16[BufferFrames * ExpSize / sizeof(uns16)];
-	if (Buffer == NULL)
+	uns32 dim = BufferFrames * ExpSize / sizeof(uns16);
+	*dimensione = (int)dim;
+	uns16 *LocalBuffer = new (std::nothrow) uns16[dim];
+	if (LocalBuffer == NULL)
 	{
 		return(7001); // error: could not allocate memory
 	}
 
-	if (PV_OK != pl_exp_start_cont(CamHandle, (void *)Buffer, BufferFrames * ExpSize / sizeof(uns16)))
+	if (PV_OK != pl_exp_start_cont(CamHandle, (void *)LocalBuffer, dim))
 	{
 		return(7002); // error: could not start acquisition
 	}
 	
+	Buffer = (UINT16*)LocalBuffer;
+
 	return (0);
 }
 
-__declspec(dllexport) int GetFrame(int16 CamHandle, UINT16 *Frame)
+__declspec(dllexport) int GetFrame(int16 CamHandle, UINT16 *Frame, UINT16 xSize, UINT16 ySize)
 {
-	if (PV_OK != pl_exp_get_latest_frame(CamHandle, (void **)&Frame))
+	int size = xSize * ySize;
+	uns16 *local_frame;
+	//local_frame = new(std::nothrow) uns16[size];
+
+
+	if (PV_OK != pl_exp_get_latest_frame(CamHandle, (void **)&local_frame))
 	{
 		return(7005); //unable to access frame
 	}
+
+	int i;
+	for (i = 0; i < size; i++)
+	{
+		Frame[i] = (UINT16)local_frame[i];
+	}
+
+	//delete[] local_frame;
 
 	return(0);
 }
@@ -184,6 +207,27 @@ __declspec(dllexport) int CloseCamera(int16 CamHandle)
 	if (PV_OK != pl_pvcam_uninit())
 	{
 		return(1001); // error while unloading PVCAM
+	}
+
+	return(0);
+}
+
+__declspec(dllexport) int IsFrameAvaliable(int16 CamHandle, int *available)
+{
+	int16 status;
+	uns32 byte_cnt;
+	uns32 buffer_cnt;
+
+	pl_exp_check_cont_status(CamHandle, &status, &byte_cnt, &buffer_cnt);
+
+	if (status == FRAME_AVAILABLE)
+		*available = 1;
+	else
+		*available = 0;
+	
+	if (status == READOUT_FAILED)
+	{
+		return(90001); // readout failed error
 	}
 
 	return(0);
