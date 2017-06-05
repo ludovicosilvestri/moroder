@@ -769,21 +769,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/Distrio/executables/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{921AD49F-2444-43B6-9928-2B52270F1EE0}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/Distrio/executables/NI_AB_PROJECTNAME/Cascade.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/NI_AB_PROJECTNAME/Cascade.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/Distrio/executables/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icons/salmon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{142A4F12-36F4-4F07-905A-6F37B4B05E64}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{69EA859E-3A35-44DE-BC27-4384C4CA4C8E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade.lvclass/Main.vi</Property>

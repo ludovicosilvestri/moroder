@@ -25,6 +25,7 @@
 		<Item Name="Open camera.vi" Type="VI" URL="../Open camera.vi"/>
 		<Item Name="Set clear and shutter.vi" Type="VI" URL="../Set clear and shutter.vi"/>
 		<Item Name="Set gain and speed.vi" Type="VI" URL="../Set gain and speed.vi"/>
+		<Item Name="Set temperature.vi" Type="VI" URL="../Set temperature.vi"/>
 		<Item Name="Start acquisition.vi" Type="VI" URL="../Start acquisition.vi"/>
 		<Item Name="Stop acquisition.vi" Type="VI" URL="../Stop acquisition.vi"/>
 		<Item Name="Tester.vi" Type="VI" URL="../Tester.vi"/>
@@ -36,6 +37,7 @@
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 			</Item>
+			<Item Name="Cascade wrapper.dll" Type="Document" URL="../Visual Studio/Cascade wrapper/Release/Cascade wrapper.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
