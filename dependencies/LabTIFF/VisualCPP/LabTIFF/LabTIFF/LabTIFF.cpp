@@ -150,7 +150,7 @@ __declspec(dllexport) int AppendPage(int*& FileRef, double* DataArray, uint32 Im
 			TIFFWriteEncodedStrip(tif, StripCount, &DataArray_float32[(StripCount * StripSize)/4], StripSize);
 	}
 	
-	TIFFWriteDirectory(tif);
+	TIFFRewriteDirectory(tif);
 	
 	if (!strcmp(ImageType, "uint8"))
 	{
