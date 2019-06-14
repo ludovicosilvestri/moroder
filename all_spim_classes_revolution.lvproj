@@ -880,8 +880,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="#5.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/#5.vi"/>
-			<Item Name="Analog FGlobal.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog FGlobal.vi"/>
 			<Item Name="Analog Functions.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog Functions.vi"/>
 			<Item Name="Analog Receive String.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog Receive String.vi"/>
 			<Item Name="Available Analog Commands.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Analog control.llb/Available Analog Commands.ctl"/>
@@ -893,7 +891,6 @@
 			<Item Name="Build command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build command substring.vi"/>
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
-			<Item Name="Close connection if open.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Close connection if open.vi"/>
 			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Commanded axes connected?.vi"/>
 			<Item Name="Controller names.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Controller names.ctl"/>
 			<Item Name="CTO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CTO.vi"/>
